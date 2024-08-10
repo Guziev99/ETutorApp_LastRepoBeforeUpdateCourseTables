@@ -1,0 +1,875 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\presentation\\e-tutorapp.web\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|solutionrelative:presentation\\e-tutorapp.web\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{736E78AE-2C12-453A-97C3-F0008CA106A9}|Core\\E-TutorApp.Domain\\E-TutorApp.Domain.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\core\\e-tutorapp.domain\\entities\\concretes\\coursebasicinfos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{736E78AE-2C12-453A-97C3-F0008CA106A9}|Core\\E-TutorApp.Domain\\E-TutorApp.Domain.csproj|solutionrelative:core\\e-tutorapp.domain\\entities\\concretes\\coursebasicinfos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\presentation\\e-tutorapp.web\\views\\student\\studentdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|solutionrelative:presentation\\e-tutorapp.web\\views\\student\\studentdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{736E78AE-2C12-453A-97C3-F0008CA106A9}|Core\\E-TutorApp.Domain\\E-TutorApp.Domain.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\core\\e-tutorapp.domain\\entities\\concretes\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{736E78AE-2C12-453A-97C3-F0008CA106A9}|Core\\E-TutorApp.Domain\\E-TutorApp.Domain.csproj|solutionrelative:core\\e-tutorapp.domain\\entities\\concretes\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{736E78AE-2C12-453A-97C3-F0008CA106A9}|Core\\E-TutorApp.Domain\\E-TutorApp.Domain.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\core\\e-tutorapp.domain\\entities\\concretes\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{736E78AE-2C12-453A-97C3-F0008CA106A9}|Core\\E-TutorApp.Domain\\E-TutorApp.Domain.csproj|solutionrelative:core\\e-tutorapp.domain\\entities\\concretes\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\presentation\\e-tutorapp.web\\views\\shared\\_coursecreationlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|solutionrelative:presentation\\e-tutorapp.web\\views\\shared\\_coursecreationlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\presentation\\e-tutorapp.web\\views\\course\\createcoursebasicinformation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|solutionrelative:presentation\\e-tutorapp.web\\views\\course\\createcoursebasicinformation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\presentation\\e-tutorapp.web\\views\\course\\createcourseadvanceinformation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|solutionrelative:presentation\\e-tutorapp.web\\views\\course\\createcourseadvanceinformation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\presentation\\e-tutorapp.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|solutionrelative:presentation\\e-tutorapp.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\presentation\\e-tutorapp.web\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|solutionrelative:presentation\\e-tutorapp.web\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\presentation\\e-tutorapp.web\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|solutionrelative:presentation\\e-tutorapp.web\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\presentation\\e-tutorapp.web\\views\\shared\\_studentlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|solutionrelative:presentation\\e-tutorapp.web\\views\\shared\\_studentlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\presentation\\e-tutorapp.web\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|solutionrelative:presentation\\e-tutorapp.web\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{736E78AE-2C12-453A-97C3-F0008CA106A9}|Core\\E-TutorApp.Domain\\E-TutorApp.Domain.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\core\\e-tutorapp.domain\\viewmodels\\coursebasicinfoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{736E78AE-2C12-453A-97C3-F0008CA106A9}|Core\\E-TutorApp.Domain\\E-TutorApp.Domain.csproj|solutionrelative:core\\e-tutorapp.domain\\viewmodels\\coursebasicinfoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\presentation\\e-tutorapp.web\\views\\home\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|solutionrelative:presentation\\e-tutorapp.web\\views\\home\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{736E78AE-2C12-453A-97C3-F0008CA106A9}|Core\\E-TutorApp.Domain\\E-TutorApp.Domain.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\core\\e-tutorapp.domain\\dtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{736E78AE-2C12-453A-97C3-F0008CA106A9}|Core\\E-TutorApp.Domain\\E-TutorApp.Domain.csproj|solutionrelative:core\\e-tutorapp.domain\\dtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\presentation\\e-tutorapp.web\\controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|solutionrelative:presentation\\e-tutorapp.web\\controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\presentation\\e-tutorapp.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|solutionrelative:presentation\\e-tutorapp.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\presentation\\e-tutorapp.web\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|solutionrelative:presentation\\e-tutorapp.web\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/TutorPrct2_We5/True/SqlTable/dbo.Courses.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{736E78AE-2C12-453A-97C3-F0008CA106A9}|Core\\E-TutorApp.Domain\\E-TutorApp.Domain.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\core\\e-tutorapp.domain\\entities\\concretes\\detailstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{736E78AE-2C12-453A-97C3-F0008CA106A9}|Core\\E-TutorApp.Domain\\E-TutorApp.Domain.csproj|solutionrelative:core\\e-tutorapp.domain\\entities\\concretes\\detailstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\presentation\\e-tutorapp.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|solutionrelative:presentation\\e-tutorapp.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{736E78AE-2C12-453A-97C3-F0008CA106A9}|Core\\E-TutorApp.Domain\\E-TutorApp.Domain.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\core\\e-tutorapp.domain\\entities\\concretes\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{736E78AE-2C12-453A-97C3-F0008CA106A9}|Core\\E-TutorApp.Domain\\E-TutorApp.Domain.csproj|solutionrelative:core\\e-tutorapp.domain\\entities\\concretes\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\presentation\\e-tutorapp.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|solutionrelative:presentation\\e-tutorapp.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{736E78AE-2C12-453A-97C3-F0008CA106A9}|Core\\E-TutorApp.Domain\\E-TutorApp.Domain.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\core\\e-tutorapp.domain\\entities\\concretes\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{736E78AE-2C12-453A-97C3-F0008CA106A9}|Core\\E-TutorApp.Domain\\E-TutorApp.Domain.csproj|solutionrelative:core\\e-tutorapp.domain\\entities\\concretes\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{736E78AE-2C12-453A-97C3-F0008CA106A9}|Core\\E-TutorApp.Domain\\E-TutorApp.Domain.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\core\\e-tutorapp.domain\\entities\\concretes\\secture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{736E78AE-2C12-453A-97C3-F0008CA106A9}|Core\\E-TutorApp.Domain\\E-TutorApp.Domain.csproj|solutionrelative:core\\e-tutorapp.domain\\entities\\concretes\\secture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{736E78AE-2C12-453A-97C3-F0008CA106A9}|Core\\E-TutorApp.Domain\\E-TutorApp.Domain.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\core\\e-tutorapp.domain\\entities\\concretes\\lecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{736E78AE-2C12-453A-97C3-F0008CA106A9}|Core\\E-TutorApp.Domain\\E-TutorApp.Domain.csproj|solutionrelative:core\\e-tutorapp.domain\\entities\\concretes\\lecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{736E78AE-2C12-453A-97C3-F0008CA106A9}|Core\\E-TutorApp.Domain\\E-TutorApp.Domain.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\core\\e-tutorapp.domain\\entities\\concretes\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{736E78AE-2C12-453A-97C3-F0008CA106A9}|Core\\E-TutorApp.Domain\\E-TutorApp.Domain.csproj|solutionrelative:core\\e-tutorapp.domain\\entities\\concretes\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{736E78AE-2C12-453A-97C3-F0008CA106A9}|Core\\E-TutorApp.Domain\\E-TutorApp.Domain.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\core\\e-tutorapp.domain\\entities\\concretes\\detailinstructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{736E78AE-2C12-453A-97C3-F0008CA106A9}|Core\\E-TutorApp.Domain\\E-TutorApp.Domain.csproj|solutionrelative:core\\e-tutorapp.domain\\entities\\concretes\\detailinstructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{736E78AE-2C12-453A-97C3-F0008CA106A9}|Core\\E-TutorApp.Domain\\E-TutorApp.Domain.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\core\\e-tutorapp.domain\\entities\\concretes\\curriculum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{736E78AE-2C12-453A-97C3-F0008CA106A9}|Core\\E-TutorApp.Domain\\E-TutorApp.Domain.csproj|solutionrelative:core\\e-tutorapp.domain\\entities\\concretes\\curriculum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{736E78AE-2C12-453A-97C3-F0008CA106A9}|Core\\E-TutorApp.Domain\\E-TutorApp.Domain.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\core\\e-tutorapp.domain\\entities\\concretes\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{736E78AE-2C12-453A-97C3-F0008CA106A9}|Core\\E-TutorApp.Domain\\E-TutorApp.Domain.csproj|solutionrelative:core\\e-tutorapp.domain\\entities\\concretes\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{736E78AE-2C12-453A-97C3-F0008CA106A9}|Core\\E-TutorApp.Domain\\E-TutorApp.Domain.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\core\\e-tutorapp.domain\\entities\\concretes\\attachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{736E78AE-2C12-453A-97C3-F0008CA106A9}|Core\\E-TutorApp.Domain\\E-TutorApp.Domain.csproj|solutionrelative:core\\e-tutorapp.domain\\entities\\concretes\\attachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAEF9ACC-B13D-4A3E-AE2A-7CED86FC691A}|Infrastructure\\E-TutorApp.Persistence\\E-TutorApp.Persistence.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\infrastructure\\e-tutorapp.persistence\\repositories\\categoryrepos\\writecategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAEF9ACC-B13D-4A3E-AE2A-7CED86FC691A}|Infrastructure\\E-TutorApp.Persistence\\E-TutorApp.Persistence.csproj|solutionrelative:infrastructure\\e-tutorapp.persistence\\repositories\\categoryrepos\\writecategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\presentation\\e-tutorapp.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|solutionrelative:presentation\\e-tutorapp.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/TutorPrct2_We4/True/SqlTable/dbo.CourseDetailStudent.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/TutorPrct2_We4/True/SqlTable/dbo.Courses.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/TutorPrct2_We4/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\presentation\\e-tutorapp.web\\views\\student\\studentcourses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|solutionrelative:presentation\\e-tutorapp.web\\views\\student\\studentcourses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\presentation\\e-tutorapp.web\\views\\category\\coursesbycategoryname.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|solutionrelative:presentation\\e-tutorapp.web\\views\\category\\coursesbycategoryname.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\presentation\\e-tutorapp.web\\views\\category\\allcategories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|solutionrelative:presentation\\e-tutorapp.web\\views\\category\\allcategories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\presentation\\e-tutorapp.web\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|solutionrelative:presentation\\e-tutorapp.web\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAEF9ACC-B13D-4A3E-AE2A-7CED86FC691A}|Infrastructure\\E-TutorApp.Persistence\\E-TutorApp.Persistence.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\infrastructure\\e-tutorapp.persistence\\repositories\\categoryrepos\\readcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAEF9ACC-B13D-4A3E-AE2A-7CED86FC691A}|Infrastructure\\E-TutorApp.Persistence\\E-TutorApp.Persistence.csproj|solutionrelative:infrastructure\\e-tutorapp.persistence\\repositories\\categoryrepos\\readcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/TutorPrct2_We4/True/SqlTable/dbo.Categories.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\presentation\\e-tutorapp.web\\views\\category\\addcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|solutionrelative:presentation\\e-tutorapp.web\\views\\category\\addcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\presentation\\e-tutorapp.web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|solutionrelative:presentation\\e-tutorapp.web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAEF9ACC-B13D-4A3E-AE2A-7CED86FC691A}|Infrastructure\\E-TutorApp.Persistence\\E-TutorApp.Persistence.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\infrastructure\\e-tutorapp.persistence\\services\\paginationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAEF9ACC-B13D-4A3E-AE2A-7CED86FC691A}|Infrastructure\\E-TutorApp.Persistence\\E-TutorApp.Persistence.csproj|solutionrelative:infrastructure\\e-tutorapp.persistence\\services\\paginationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{736E78AE-2C12-453A-97C3-F0008CA106A9}|Core\\E-TutorApp.Domain\\E-TutorApp.Domain.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\core\\e-tutorapp.domain\\viewmodels\\categoryvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{736E78AE-2C12-453A-97C3-F0008CA106A9}|Core\\E-TutorApp.Domain\\E-TutorApp.Domain.csproj|solutionrelative:core\\e-tutorapp.domain\\viewmodels\\categoryvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAEF9ACC-B13D-4A3E-AE2A-7CED86FC691A}|Infrastructure\\E-TutorApp.Persistence\\E-TutorApp.Persistence.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\infrastructure\\e-tutorapp.persistence\\repositories\\common\\writegenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAEF9ACC-B13D-4A3E-AE2A-7CED86FC691A}|Infrastructure\\E-TutorApp.Persistence\\E-TutorApp.Persistence.csproj|solutionrelative:infrastructure\\e-tutorapp.persistence\\repositories\\common\\writegenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{736E78AE-2C12-453A-97C3-F0008CA106A9}|Core\\E-TutorApp.Domain\\E-TutorApp.Domain.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\core\\e-tutorapp.domain\\viewmodels\\getcategoryvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{736E78AE-2C12-453A-97C3-F0008CA106A9}|Core\\E-TutorApp.Domain\\E-TutorApp.Domain.csproj|solutionrelative:core\\e-tutorapp.domain\\viewmodels\\getcategoryvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|c:\\users\\user\\videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\e-tutorapp\\presentation\\e-tutorapp.web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB4D8762-4E55-483F-8CD3-93E32E58CD8C}|Presentation\\E-TutorApp.Web\\E-TutorApp.Web.csproj|solutionrelative:presentation\\e-tutorapp.web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/TutorPrct2_We4/True/SqlTable/dbo.AspNetRoles.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/TutorPrct2_We3/True/SqlTable/dbo.Courses.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/TutorPrct2_We3/True/SqlTable/dbo.DetailInstructors.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/TutorPrct2_We3/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/TutorPrct2_We3/True/SqlTable/dbo.Categories.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/TutorPrct2_We3/True/SqlTable/dbo.DetailStudent.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CourseBasicInfos.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Core\\E-TutorApp.Domain\\Entities\\Concretes\\CourseBasicInfos.cs",
+              "RelativeDocumentMoniker": "Core\\E-TutorApp.Domain\\Entities\\Concretes\\CourseBasicInfos.cs",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Core\\E-TutorApp.Domain\\Entities\\Concretes\\CourseBasicInfos.cs",
+              "RelativeToolTip": "Core\\E-TutorApp.Domain\\Entities\\Concretes\\CourseBasicInfos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T16:01:47.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_CourseCreationLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Views\\Shared\\_CourseCreationLayout.cshtml",
+              "RelativeDocumentMoniker": "Presentation\\E-TutorApp.Web\\Views\\Shared\\_CourseCreationLayout.cshtml",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Views\\Shared\\_CourseCreationLayout.cshtml",
+              "RelativeToolTip": "Presentation\\E-TutorApp.Web\\Views\\Shared\\_CourseCreationLayout.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABsAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-10T15:38:18.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateCourseBasicInformation.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Views\\Course\\CreateCourseBasicInformation.cshtml",
+              "RelativeDocumentMoniker": "Presentation\\E-TutorApp.Web\\Views\\Course\\CreateCourseBasicInformation.cshtml",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Views\\Course\\CreateCourseBasicInformation.cshtml",
+              "RelativeToolTip": "Presentation\\E-TutorApp.Web\\Views\\Course\\CreateCourseBasicInformation.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-10T15:02:20.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Core\\E-TutorApp.Domain\\Entities\\Concretes\\Invoice.cs",
+              "RelativeDocumentMoniker": "Core\\E-TutorApp.Domain\\Entities\\Concretes\\Invoice.cs",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Core\\E-TutorApp.Domain\\Entities\\Concretes\\Invoice.cs",
+              "RelativeToolTip": "Core\\E-TutorApp.Domain\\Entities\\Concretes\\Invoice.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T14:13:55.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Views\\Student\\StudentDashboard.cshtml",
+              "RelativeDocumentMoniker": "Presentation\\E-TutorApp.Web\\Views\\Student\\StudentDashboard.cshtml",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Views\\Student\\StudentDashboard.cshtml",
+              "RelativeToolTip": "Presentation\\E-TutorApp.Web\\Views\\Student\\StudentDashboard.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAEgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T21:43:19.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "Presentation\\E-TutorApp.Web\\Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "Presentation\\E-TutorApp.Web\\Controllers\\CourseController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAA5wD0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T19:13:50.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Core\\E-TutorApp.Domain\\Entities\\Concretes\\Course.cs",
+              "RelativeDocumentMoniker": "Core\\E-TutorApp.Domain\\Entities\\Concretes\\Course.cs",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Core\\E-TutorApp.Domain\\Entities\\Concretes\\Course.cs",
+              "RelativeToolTip": "Core\\E-TutorApp.Domain\\Entities\\Concretes\\Course.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowCkAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T14:13:40.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateCourseAdvanceInformation.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Views\\Course\\CreateCourseAdvanceInformation.cshtml",
+              "RelativeDocumentMoniker": "Presentation\\E-TutorApp.Web\\Views\\Course\\CreateCourseAdvanceInformation.cshtml",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Views\\Course\\CreateCourseAdvanceInformation.cshtml",
+              "RelativeToolTip": "Presentation\\E-TutorApp.Web\\Views\\Course\\CreateCourseAdvanceInformation.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-10T15:43:36.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Presentation\\E-TutorApp.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Presentation\\E-TutorApp.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADUAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-10T15:37:34.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Presentation\\E-TutorApp.Web\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Presentation\\E-TutorApp.Web\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-10T15:46:03.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Presentation\\E-TutorApp.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Presentation\\E-TutorApp.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-10T15:45:59.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_StudentLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Views\\Shared\\_StudentLayout.cshtml",
+              "RelativeDocumentMoniker": "Presentation\\E-TutorApp.Web\\Views\\Shared\\_StudentLayout.cshtml",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Views\\Shared\\_StudentLayout.cshtml",
+              "RelativeToolTip": "Presentation\\E-TutorApp.Web\\Views\\Shared\\_StudentLayout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:08:41.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Views\\Home\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Presentation\\E-TutorApp.Web\\Views\\Home\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Views\\Home\\Dashboard.cshtml",
+              "RelativeToolTip": "Presentation\\E-TutorApp.Web\\Views\\Home\\Dashboard.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-10T15:44:21.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CourseBasicInfoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Core\\E-TutorApp.Domain\\ViewModels\\CourseBasicInfoViewModel.cs",
+              "RelativeDocumentMoniker": "Core\\E-TutorApp.Domain\\ViewModels\\CourseBasicInfoViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Core\\E-TutorApp.Domain\\ViewModels\\CourseBasicInfoViewModel.cs",
+              "RelativeToolTip": "Core\\E-TutorApp.Domain\\ViewModels\\CourseBasicInfoViewModel.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAYwA8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T15:15:34.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Homepage.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Views\\Home\\Homepage.cshtml",
+              "RelativeDocumentMoniker": "Presentation\\E-TutorApp.Web\\Views\\Home\\Homepage.cshtml",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Views\\Home\\Homepage.cshtml",
+              "RelativeToolTip": "Presentation\\E-TutorApp.Web\\Views\\Home\\Homepage.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-10T14:52:34.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CourseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Core\\E-TutorApp.Domain\\DTOs\\CourseDTO.cs",
+              "RelativeDocumentMoniker": "Core\\E-TutorApp.Domain\\DTOs\\CourseDTO.cs",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Core\\E-TutorApp.Domain\\DTOs\\CourseDTO.cs",
+              "RelativeToolTip": "Core\\E-TutorApp.Domain\\DTOs\\CourseDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T14:54:12.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Presentation\\E-TutorApp.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Presentation\\E-TutorApp.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAwBsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T14:49:37.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "dbo.Courses [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/TutorPrct2_We5/True/SqlTable/dbo.Courses.sql",
+              "ToolTip": "dbo.Courses [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-10T11:40:26.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Presentation\\E-TutorApp.Web\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Presentation\\E-TutorApp.Web\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAhwGQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T21:33:03.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Video.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Core\\E-TutorApp.Domain\\Entities\\Concretes\\Video.cs",
+              "RelativeDocumentMoniker": "Core\\E-TutorApp.Domain\\Entities\\Concretes\\Video.cs",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Core\\E-TutorApp.Domain\\Entities\\Concretes\\Video.cs",
+              "RelativeToolTip": "Core\\E-TutorApp.Domain\\Entities\\Concretes\\Video.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T21:26:26.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "InstructorController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Controllers\\InstructorController.cs",
+              "RelativeDocumentMoniker": "Presentation\\E-TutorApp.Web\\Controllers\\InstructorController.cs",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Controllers\\InstructorController.cs",
+              "RelativeToolTip": "Presentation\\E-TutorApp.Web\\Controllers\\InstructorController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T19:11:29.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Core\\E-TutorApp.Domain\\Entities\\Concretes\\User.cs",
+              "RelativeDocumentMoniker": "Core\\E-TutorApp.Domain\\Entities\\Concretes\\User.cs",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Core\\E-TutorApp.Domain\\Entities\\Concretes\\User.cs",
+              "RelativeToolTip": "Core\\E-TutorApp.Domain\\Entities\\Concretes\\User.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAwCUAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T14:54:57.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\E-TutorApp.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Program.cs",
+              "RelativeToolTip": "Presentation\\E-TutorApp.Web\\Program.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAAAFQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T23:36:56.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DetailStudent.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Core\\E-TutorApp.Domain\\Entities\\Concretes\\DetailStudent.cs",
+              "RelativeDocumentMoniker": "Core\\E-TutorApp.Domain\\Entities\\Concretes\\DetailStudent.cs",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Core\\E-TutorApp.Domain\\Entities\\Concretes\\DetailStudent.cs",
+              "RelativeToolTip": "Core\\E-TutorApp.Domain\\Entities\\Concretes\\DetailStudent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T22:07:40.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Secture.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Core\\E-TutorApp.Domain\\Entities\\Concretes\\Secture.cs",
+              "RelativeDocumentMoniker": "Core\\E-TutorApp.Domain\\Entities\\Concretes\\Secture.cs",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Core\\E-TutorApp.Domain\\Entities\\Concretes\\Secture.cs",
+              "RelativeToolTip": "Core\\E-TutorApp.Domain\\Entities\\Concretes\\Secture.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T21:21:22.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Lecture.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Core\\E-TutorApp.Domain\\Entities\\Concretes\\Lecture.cs",
+              "RelativeDocumentMoniker": "Core\\E-TutorApp.Domain\\Entities\\Concretes\\Lecture.cs",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Core\\E-TutorApp.Domain\\Entities\\Concretes\\Lecture.cs",
+              "RelativeToolTip": "Core\\E-TutorApp.Domain\\Entities\\Concretes\\Lecture.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T21:21:36.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Core\\E-TutorApp.Domain\\Entities\\Concretes\\Enrollment.cs",
+              "RelativeDocumentMoniker": "Core\\E-TutorApp.Domain\\Entities\\Concretes\\Enrollment.cs",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Core\\E-TutorApp.Domain\\Entities\\Concretes\\Enrollment.cs",
+              "RelativeToolTip": "Core\\E-TutorApp.Domain\\Entities\\Concretes\\Enrollment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T10:18:32.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "Presentation\\E-TutorApp.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\appsettings.json",
+              "RelativeToolTip": "Presentation\\E-TutorApp.Web\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-08T14:27:09.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DetailInstructor.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Core\\E-TutorApp.Domain\\Entities\\Concretes\\DetailInstructor.cs",
+              "RelativeDocumentMoniker": "Core\\E-TutorApp.Domain\\Entities\\Concretes\\DetailInstructor.cs",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Core\\E-TutorApp.Domain\\Entities\\Concretes\\DetailInstructor.cs",
+              "RelativeToolTip": "Core\\E-TutorApp.Domain\\Entities\\Concretes\\DetailInstructor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T23:58:14.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Curriculum.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Core\\E-TutorApp.Domain\\Entities\\Concretes\\Curriculum.cs",
+              "RelativeDocumentMoniker": "Core\\E-TutorApp.Domain\\Entities\\Concretes\\Curriculum.cs",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Core\\E-TutorApp.Domain\\Entities\\Concretes\\Curriculum.cs",
+              "RelativeToolTip": "Core\\E-TutorApp.Domain\\Entities\\Concretes\\Curriculum.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T21:21:00.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Core\\E-TutorApp.Domain\\Entities\\Concretes\\Category.cs",
+              "RelativeDocumentMoniker": "Core\\E-TutorApp.Domain\\Entities\\Concretes\\Category.cs",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Core\\E-TutorApp.Domain\\Entities\\Concretes\\Category.cs",
+              "RelativeToolTip": "Core\\E-TutorApp.Domain\\Entities\\Concretes\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T14:25:32.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Attachment.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Core\\E-TutorApp.Domain\\Entities\\Concretes\\Attachment.cs",
+              "RelativeDocumentMoniker": "Core\\E-TutorApp.Domain\\Entities\\Concretes\\Attachment.cs",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Core\\E-TutorApp.Domain\\Entities\\Concretes\\Attachment.cs",
+              "RelativeToolTip": "Core\\E-TutorApp.Domain\\Entities\\Concretes\\Attachment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T10:10:55.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Presentation\\E-TutorApp.Web\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Presentation\\E-TutorApp.Web\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAhwF8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T17:32:58.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "dbo.CourseDetailStudent [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/TutorPrct2_We4/True/SqlTable/dbo.CourseDetailStudent.sql",
+              "ToolTip": "dbo.CourseDetailStudent [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-08T21:36:47.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "WriteCategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Infrastructure\\E-TutorApp.Persistence\\Repositories\\CategoryRepos\\WriteCategoryRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\E-TutorApp.Persistence\\Repositories\\CategoryRepos\\WriteCategoryRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Infrastructure\\E-TutorApp.Persistence\\Repositories\\CategoryRepos\\WriteCategoryRepository.cs",
+              "RelativeToolTip": "Infrastructure\\E-TutorApp.Persistence\\Repositories\\CategoryRepos\\WriteCategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T23:58:26.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "dbo.AspNetUsers [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/TutorPrct2_We4/True/SqlTable/dbo.AspNetUsers.sql",
+              "ToolTip": "dbo.AspNetUsers [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-08T14:54:01.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "dbo.Courses [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/TutorPrct2_We4/True/SqlTable/dbo.Courses.sql",
+              "ToolTip": "dbo.Courses [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-08T17:45:09.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CoursesByCategoryName.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Views\\Category\\CoursesByCategoryName.cshtml",
+              "RelativeDocumentMoniker": "Presentation\\E-TutorApp.Web\\Views\\Category\\CoursesByCategoryName.cshtml",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Views\\Category\\CoursesByCategoryName.cshtml",
+              "RelativeToolTip": "Presentation\\E-TutorApp.Web\\Views\\Category\\CoursesByCategoryName.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACUAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T17:19:29.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AllCategories.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Views\\Category\\AllCategories.cshtml",
+              "RelativeDocumentMoniker": "Presentation\\E-TutorApp.Web\\Views\\Category\\AllCategories.cshtml",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Views\\Category\\AllCategories.cshtml",
+              "RelativeToolTip": "Presentation\\E-TutorApp.Web\\Views\\Category\\AllCategories.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T16:29:16.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Presentation\\E-TutorApp.Web\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Presentation\\E-TutorApp.Web\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAkwEkAAABsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T14:23:49.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "StudentCourses.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Views\\Student\\StudentCourses.cshtml",
+              "RelativeDocumentMoniker": "Presentation\\E-TutorApp.Web\\Views\\Student\\StudentCourses.cshtml",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Views\\Student\\StudentCourses.cshtml",
+              "RelativeToolTip": "Presentation\\E-TutorApp.Web\\Views\\Student\\StudentCourses.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:08:15.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ReadCategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Infrastructure\\E-TutorApp.Persistence\\Repositories\\CategoryRepos\\ReadCategoryRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\E-TutorApp.Persistence\\Repositories\\CategoryRepos\\ReadCategoryRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Infrastructure\\E-TutorApp.Persistence\\Repositories\\CategoryRepos\\ReadCategoryRepository.cs",
+              "RelativeToolTip": "Infrastructure\\E-TutorApp.Persistence\\Repositories\\CategoryRepos\\ReadCategoryRepository.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAwCQAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T16:11:50.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "dbo.Categories [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/TutorPrct2_We4/True/SqlTable/dbo.Categories.sql",
+              "ToolTip": "dbo.Categories [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-08T16:23:56.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Presentation\\E-TutorApp.Web\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Presentation\\E-TutorApp.Web\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T16:08:59.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "CategoryVM.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Core\\E-TutorApp.Domain\\ViewModels\\CategoryVM.cs",
+              "RelativeDocumentMoniker": "Core\\E-TutorApp.Domain\\ViewModels\\CategoryVM.cs",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Core\\E-TutorApp.Domain\\ViewModels\\CategoryVM.cs",
+              "RelativeToolTip": "Core\\E-TutorApp.Domain\\ViewModels\\CategoryVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T16:03:44.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "AddCategory.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Views\\Category\\AddCategory.cshtml",
+              "RelativeDocumentMoniker": "Presentation\\E-TutorApp.Web\\Views\\Category\\AddCategory.cshtml",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Views\\Category\\AddCategory.cshtml",
+              "RelativeToolTip": "Presentation\\E-TutorApp.Web\\Views\\Category\\AddCategory.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T16:05:28.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "PaginationService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Infrastructure\\E-TutorApp.Persistence\\Services\\PaginationService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\E-TutorApp.Persistence\\Services\\PaginationService.cs",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Infrastructure\\E-TutorApp.Persistence\\Services\\PaginationService.cs",
+              "RelativeToolTip": "Infrastructure\\E-TutorApp.Persistence\\Services\\PaginationService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T16:12:20.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "WriteGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Infrastructure\\E-TutorApp.Persistence\\Repositories\\Common\\WriteGenericRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\E-TutorApp.Persistence\\Repositories\\Common\\WriteGenericRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Infrastructure\\E-TutorApp.Persistence\\Repositories\\Common\\WriteGenericRepository.cs",
+              "RelativeToolTip": "Infrastructure\\E-TutorApp.Persistence\\Repositories\\Common\\WriteGenericRepository.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAYwC4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T16:17:55.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "GetCategoryVM.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Core\\E-TutorApp.Domain\\ViewModels\\GetCategoryVM.cs",
+              "RelativeDocumentMoniker": "Core\\E-TutorApp.Domain\\ViewModels\\GetCategoryVM.cs",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Core\\E-TutorApp.Domain\\ViewModels\\GetCategoryVM.cs",
+              "RelativeToolTip": "Core\\E-TutorApp.Domain\\ViewModels\\GetCategoryVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T16:04:38.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Presentation\\E-TutorApp.Web\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\User\\Videos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\new\\new\\E-TutorApp\\Presentation\\E-TutorApp.Web\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Presentation\\E-TutorApp.Web\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T16:08:57.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "dbo.AspNetRoles [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/TutorPrct2_We4/True/SqlTable/dbo.AspNetRoles.sql",
+              "ToolTip": "dbo.AspNetRoles [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-08T14:54:08.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "dbo.DetailInstructors [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/TutorPrct2_We3/True/SqlTable/dbo.DetailInstructors.sql",
+              "ToolTip": "dbo.DetailInstructors [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-07T23:54:37.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "dbo.Courses [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/TutorPrct2_We3/True/SqlTable/dbo.Courses.sql",
+              "ToolTip": "dbo.Courses [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-07T23:48:19.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "dbo.Categories [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/TutorPrct2_We3/True/SqlTable/dbo.Categories.sql",
+              "ToolTip": "dbo.Categories [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-07T23:51:49.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "dbo.AspNetUsers [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/TutorPrct2_We3/True/SqlTable/dbo.AspNetUsers.sql",
+              "ToolTip": "dbo.AspNetUsers [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-07T23:38:08.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "dbo.DetailStudent [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/TutorPrct2_We3/True/SqlTable/dbo.DetailStudent.sql",
+              "ToolTip": "dbo.DetailStudent [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-07T23:48:38.472Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

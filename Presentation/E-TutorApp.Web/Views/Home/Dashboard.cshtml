@@ -1,0 +1,36 @@
+﻿@{
+    ViewBag.Title = "Dashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml"; // Varsayılan bir layout dosyası kullanılıyor
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Dashboard</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="dashboard-container">
+        <h1>Welcome to the Dashboard</h1>
+        <p>This is your central hub to manage and monitor your activities.</p>
+
+        <div class="dashboard-sections">
+            <div class="section">
+                <a class="nav-link text-dark" asp-controller="Account" asp-action="Login">Login</a>
+            </div>
+            <div class="section">
+                <h2>Overview</h2>
+                <p>Summary of your recent activities and notifications.</p>
+            </div>
+            <div class="section">
+                <h2>Reports</h2>
+                <p>Access detailed reports and analytics.</p>
+            </div>
+            <div class="section">
+                <h2>Settings</h2>
+                <p>Manage your account settings and preferences.</p>
+            </div>
+        </div>
+    </div>
+</body>

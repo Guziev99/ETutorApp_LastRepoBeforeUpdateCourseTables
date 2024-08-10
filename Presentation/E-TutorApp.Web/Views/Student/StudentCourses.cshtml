@@ -1,0 +1,38 @@
+﻿@model CoursesViewModel
+
+@{
+    ViewData["Title"] = "Courses";
+    Layout = "~/Views/Shared/_StudentLayout.cshtml";
+}
+
+<h2>Courses</h2>
+<link rel="stylesheet" href="~/css/site.css" />
+<form method="get">
+    <div>
+        <label for="courseName">Course Name:</label>
+        <input type="text" id="courseName" name="courseName" value="@Model.CourseName" />
+    </div>
+    <div>
+        <label for="filter">Filter:</label>
+        <select id="filter" name="filter">
+            @* <option value="Latest" @(Model.CourseName == "Latest" ? "selected" : "")>Latest</option>
+            <option value="AllCourses" @(Model.Filter == "AllCourses" ? "selected" : "")>All Courses</option>
+            <option value="AllTeachers" @(Model.Filter == "AllTeachers" ? "selected" : "")>All Teachers</option> *@
+             <option value="Filter" >Newest</option>
+            <option value="filter">Oldest</option>
+        </select>
+    </div>
+    <button type="submit">Apply</button>
+</form>
+
+<div>
+    @foreach (var course in Model.Courses)
+    {
+        <div class="course-item">
+            <img src="@course.ImageUrl" alt="@course.Name" />
+            <h3>@course.Name</h3>
+            <p>@course.Title</p>
+            <a href="/Courses/Watch/@course.Id">Watch</a>
+        </div>
+    }
+</div>

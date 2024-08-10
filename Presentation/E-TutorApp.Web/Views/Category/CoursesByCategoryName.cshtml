@@ -1,0 +1,42 @@
+﻿@model List<CourseDTO>
+
+<h2>All Courses</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Image</th>
+            <th>Category</th>
+            <th>Instructor ID</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (CourseDTO ? course in @Model!)
+        @* @if(@Model is not null) *@
+        {
+            @* @if(course != null)
+            { *@
+                <tr>
+                    <td>@course!.Name</td>
+                    <td>@course!.Title</td>
+                    <td>@course!.Description</td>
+                    <td>@string.Format("{0:C}", course!.Price)</td> <!-- Displaying price as currency -->
+                    <td>
+                        @if (!string.IsNullOrEmpty(course!.ImageUrl))
+                        {
+                            <img src="@course!.ImageUrl" alt="@course!.Title" style="width:50px;height:50px;" />
+                        }
+                    </td>
+                    <td>@course!.CategoryName</td>
+                    <td>@course!.InstructorId</td>
+                </tr>
+            @* } *@
+           
+           
+        }
+    </tbody>
+</table>

@@ -1,0 +1,35 @@
+﻿@model List<CourseDTO>
+
+<div id="course-list">
+    @for (int i = 0; i < Model.Count; i++)
+    {
+        var course = Model[i];
+        <div class="course-item @(i >= 5 ? "hidden-course" : "")">
+            <img src="@course.ImageUrl" alt="@course.Title" style="width:100px;height:100px;" />
+            <h3>@course.Name</h3>
+            <h4>@course.Title</h4>
+            <p>@course.Description</p>
+        </div>
+    }
+</div>
+
+@if (Model.Count > 5)
+{
+    <button id="show-more-btn" onclick="showMoreCourses()">Show More</button>
+}
+
+<script>
+    function showMoreCourses() {
+        var hiddenCourses = document.querySelectorAll('.hidden-course');
+        hiddenCourses.forEach(function(course) {
+            course.style.display = 'block';
+        });
+        document.getElementById('show-more-btn').style.display = 'none';
+    }
+</script>
+
+<style>
+    .hidden-course {
+        display: none;
+    }
+</style>
