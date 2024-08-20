@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace E_TutorApp.Domain.ViewModels.CourseVMs
 {
-    public  class AddCourseVM
-    {
-        public string? Name { get; set; }
-        public string? Title { get; set; }
-        public string? Description { get; set; }
-        public float? Price { get; set; }
-        public string? ImageUrl { get; set; }
+    //public  class AddCourseVM
+    //{
+    //    public string? Name { get; set; }
+    //    public string? Title { get; set; }
+    //    public string? Description { get; set; }
+    //    public float? Price { get; set; }
+    //    public string? ImageUrl { get; set; }
 
 
-        public string CategoryName { get; set; }
-        public int InstructorId { get; set; }
-    }
+    //    public string CategoryName { get; set; }
+    //    public int InstructorId { get; set; }
+    //}
 }

@@ -1,0 +1,113 @@
+﻿@model CurriculumViewModel
+
+<form asp-action="CreateCurriculum" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="CourseAdvancesId" />
+
+    <div asp-validation-summary="All" ></div>
+    <div id="sectionsContainer">
+        @for (int i = 0; i < Model.Sections.Count; i++)
+        {
+            <div class="section-group">
+                <input type="hidden" asp-for="Sections[@i].CurriculumId" />
+
+                <label asp-for="Sections[@i].Name">Section Name:</label>
+                <input asp-for="Sections[@i].Name" />
+
+                <div id="lecturesContainer-@i">
+                    @for (int j = 0; j < Model.Sections[i].Lectures.Count; j++)
+                    {
+                        <div class="lecture-group">
+                            <input type="hidden" asp-for="@Model.Sections[@i].Lectures[@j]!.SectionId" value="" />
+
+                            <label asp-for="@Model.Sections[@i].Lectures[@j].LectureName">Lecture Name:</label>
+                            <input asp-for="@Model.Sections[@i].Lectures[@j].LectureName" />
+
+                            <label >Video URL:</label>
+                            <input name="videoFile" type="file" />
+
+                            <label >Attach File:</label>
+                            <input name="attachFile" type="file" />
+
+                            <label asp-for="@Model.Sections[@i].Lectures[@j].Caption">Caption:</label>
+                            <input asp-for="@Model.Sections[@i].Lectures[@j].Caption" />
+
+                            <label asp-for="@Model.Sections[@i].Lectures[@j].Description">Description:</label>
+                            <textarea asp-for="@Model.Sections[@i].Lectures[@j].Description"></textarea>
+
+                            <label asp-for="@Model.Sections[@i].Lectures[@j].LectureNotes">Lecture Notes:</label>
+                            <textarea asp-for="@Model.Sections[@i].Lectures[@j].LectureNotes"></textarea>
+
+                            <button type="button" onclick="removeLecture(this)">Remove Lecture</button>
+                        </div>
+                    }
+                </div>
+
+                <button type="button" onclick="addLecture(@i)">Add Lecture</button>
+                <button type="button" onclick="removeSection(this)">Remove Section</button>
+            </div>
+        }
+    </div>
+
+    <button type="button" onclick="addSection()">Add Section</button>
+    <button type="submit">Create Curriculum</button>
+</form>
+
+@section Scripts {
+    <script>
+        function addSection() {
+            var sectionIndex = $('#sectionsContainer .section-group').length;
+            var template = `
+                        <div class="section-group">
+                            <input type="hidden" name="Sections[${sectionIndex}].CurriculumId" />
+
+                            <label for="Sections_${sectionIndex}__Name">Section Name:</label>
+                            <input name="Sections[${sectionIndex}].Name" id="Sections_${sectionIndex}__Name" />
+
+                            <div id="lecturesContainer-${sectionIndex}">
+                                <!-- Lectures will be added here -->
+                            </div>
+
+                            <button type="button" onclick="addLecture(${sectionIndex})">Add Lecture</button>
+                            <button type="button" onclick="removeSection(this)">Remove Section</button>
+                        </div>`;
+            $('#sectionsContainer').append(template);
+        }
+
+        function addLecture(sectionIndex) {
+            var lectureIndex = $(`#lecturesContainer-${sectionIndex} .lecture-group`).length;
+            var template = `
+                        <div class="lecture-group">
+                            <input type="hidden" name="Sections[${sectionIndex}].Lectures[${lectureIndex}].SectionId" />
+
+                            <label for="Sections_${sectionIndex}__Lectures_${lectureIndex}__LectureName">Lecture Name:</label>
+                            <input name="Sections[${sectionIndex}].Lectures[${lectureIndex}].LectureName" id="Sections_${sectionIndex}__Lectures_${lectureIndex}__LectureName" />
+
+                            <label >Video URL:</label>
+                            <input name="videoFile" id="Sections_${sectionIndex}__Lectures_${lectureIndex}__VideoUrl" type="file" />
+
+                            <label >Attach File:</label>
+                            <input name="attachFile" id="Sections_${sectionIndex}__Lectures_${lectureIndex}__AttachFile" type="file" />
+
+                            <label for="Sections_${sectionIndex}__Lectures_${lectureIndex}__Caption">Caption:</label>
+                            <input name="Sections[${sectionIndex}].Lectures[${lectureIndex}].Caption" id="Sections_${sectionIndex}__Lectures_${lectureIndex}__Caption" />
+
+                            <label for="Sections_${sectionIndex}__Lectures_${lectureIndex}__Description">Description:</label>
+                            <textarea name="Sections[${sectionIndex}].Lectures[${lectureIndex}].Description" id="Sections_${sectionIndex}__Lectures_${lectureIndex}__Description"></textarea>
+
+                            <label for="Sections_${sectionIndex}__Lectures_${lectureIndex}__LectureNotes">Lecture Notes:</label>
+                            <textarea name="Sections[${sectionIndex}].Lectures[${lectureIndex}].LectureNotes" id="Sections_${sectionIndex}__Lectures_${lectureIndex}__LectureNotes"></textarea>
+
+                            <button type="button" onclick="removeLecture(this)">Remove Lecture</button>
+                        </div>`;
+            $(`#lecturesContainer-${sectionIndex}`).append(template);
+        }
+
+        function removeSection(button) {
+            $(button).closest('.section-group').remove();
+        }
+
+        function removeLecture(button) {
+            $(button).closest('.lecture-group').remove();
+        }
+    </script>
+}

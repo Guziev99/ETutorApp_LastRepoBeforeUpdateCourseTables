@@ -32,16 +32,17 @@ namespace E_TutorApp.Persistence.Db_Contexts
         }
 
         // Tables
-        public virtual  DbSet<Course> Courses { get; set; }
-        public virtual DbSet<Lecture> Lectures { get; set; }
+        public virtual  DbSet<CourseBasicInfos> CourseBasics { get; set; }
+        public virtual DbSet<CourseAdvanceInfos> CourseAdvances { get; set; }
+        public virtual DbSet<CourseCurriculum > CourseCurriculum { get; set; }
+        public virtual DbSet<CourseSection> CourseSections { get; set; }
+        public virtual DbSet<CourseLecture> CourseLectures { get; set;}
+        public virtual DbSet<Feedback> Feedbacks { get; set; }
+        
         public virtual DbSet<Category> Categories { get; set; }
         public virtual DbSet<Invoice> Invoices { get; set; }
-        public virtual DbSet<Attachment> Attachments { get; set; }
-        public virtual DbSet<Curriculum> Curriculums { get; set; }
-        public virtual DbSet<Secture> Sectures { get; set; }
-        public virtual DbSet<Video> Videos { get; set; }
         public virtual DbSet<DetailInstructor> DetailInstructors { get; set; }
-       // public virtual DbSet<DetailStudent > DetailStudents { get; set; }       Bu elave olunmalidir mutleq.Elave etmeyi unutdugum uchun zibili cixir tez tez
+        public virtual DbSet<DetailStudent > DetailStudents { get; set; }     
 
 
 

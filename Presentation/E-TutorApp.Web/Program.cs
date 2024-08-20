@@ -76,76 +76,109 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Home}/{action=Index}/{Id?}");
 
 //app.Run();
 
 
 
 
-//var container = app.Services.CreateScope();
-//var userManager = container.ServiceProvider.GetRequiredService<UserManager<User>>();
-//var roleManager = container.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+var container = app.Services.CreateScope();
+var usermanager = container.ServiceProvider.GetRequiredService<UserManager<User>>();
+var rolemanager = container.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
 
-//var hasStudentRole = await roleManager.RoleExistsAsync("Student");
-//if (!hasStudentRole) await roleManager.CreateAsync(new IdentityRole { Name = "Student" });
-//var hasInstructorRole = await roleManager.RoleExistsAsync("Instructor");
-//if (!hasInstructorRole) await roleManager.CreateAsync(new IdentityRole { Name = "Instructor" });
-//var hasAdminRole = await roleManager.RoleExistsAsync("Admin");
-//if (!hasAdminRole) await roleManager.CreateAsync(new IdentityRole { Name = "Admin" });
+var hasStudentRole = await rolemanager.RoleExistsAsync("Student");
+if (!hasStudentRole) await rolemanager.CreateAsync(new IdentityRole { Name = "Student" });
+var hasInstructorRole = await rolemanager.RoleExistsAsync("Instructor");
+if (!hasInstructorRole) await rolemanager.CreateAsync(new IdentityRole { Name = "Instructor" });
+var hasAdminRole = await rolemanager.RoleExistsAsync("Admin");
+if (!hasAdminRole) await rolemanager.CreateAsync(new IdentityRole { Name = "Admin" });
 
 
-//var AdminUser = await userManager.FindByNameAsync("MahammadAdmin");
+//var AdminUser = await usermanager.FindByNameAsync("MahammadAdmin");
 //if (AdminUser is null)
 //{
-//    var result = await userManager.CreateAsync(new User()
+//    var result = await usermanager.CreateAsync(new User()
 //    {
 //        UserName = "MahammadAdmin",
-//        Email = "MahammadAdmin@gmail.com",
+//        Email = "mahammadadmin@gmail.com",
 //        EmailConfirmed = true,
 
 //    }, "Admin123#");
 //    if (result.Succeeded)
 //    {
-//        var admin = await userManager.FindByNameAsync("MahammadAdmin");
-//        await userManager.AddToRoleAsync(admin, "Admin");
+//        var admin = await usermanager.FindByNameAsync("MahammadAdmin");
+//        await usermanager.AddToRoleAsync(admin!, "Admin");
 //    }
 //}
 
-//var StudentUser = await userManager.FindByNameAsync("MahammadStudent");
+//var StudentUser = await usermanager.FindByNameAsync("MahammadStudent");
 //if (StudentUser is null)
 //{
-//    var result = await userManager.CreateAsync(new User()
+//    var result = await usermanager.CreateAsync(new User()
 //    {
 //        UserName = "MahammadStudent",
-//        Email = "MahammadStudent@gmail.com",
+//        Email = "mahammadstudent@gmail.com",
 //        EmailConfirmed = true,
 
 //    }, "Student123#");
 //    if (result.Succeeded)
 //    {
-//        var student = await userManager.FindByNameAsync("MahammadStudent");
-//        await userManager.AddToRoleAsync(student, "Student");
+//        var student = await usermanager.FindByNameAsync("MahammadStudent");
+//        await usermanager.AddToRoleAsync(student, "Student");
 //    }
 //}
 
-//var InstructorUser = await userManager.FindByNameAsync("MahammadInstructor");
+//var InstructorUser = await usermanager.FindByNameAsync("MahammadInstructor");
 //if (InstructorUser is null)
 //{
-//    var result = await userManager.CreateAsync(new User()
+//    var result = await usermanager.CreateAsync(new User()
 //    {
 //        UserName = "MahammadInstructor",
-//        Email = "MahammadInstructor@gmail.com",
+//        Email = "mahammadınstructor@gmail.com",
 //        EmailConfirmed = true,
 
 //    }, "Instructor123#");
 //    if (result.Succeeded)
 //    {
-//        var instructor = await userManager.FindByNameAsync("MahammadInstructor");
-//        await userManager.AddToRoleAsync(instructor, "Instructor");
+//        var instructor = await usermanager.FindByNameAsync("MahammadInstructor");
+//        await usermanager.AddToRoleAsync(instructor, "Instructor");
 //    }
 //}
 
+//var InstructorUser2 = await usermanager.FindByNameAsync("ShamilInstructor");
+//if (InstructorUser2 is null)
+//{
+//    var result = await usermanager.CreateAsync(new User()
+//    {
+//        UserName = "ShamilInstructor",
+//        Email = "shamilınstructor@gmail.com",
+//        EmailConfirmed = true,
+
+//    }, "Instructor123#");
+//    if (result.Succeeded)
+//    {
+//        var instructor = await usermanager.FindByNameAsync("ShamilInstructor");
+//        await usermanager.AddToRoleAsync(instructor, "Instructor");
+//    }
+//}
+
+var ınstructoruser2 = await usermanager.FindByNameAsync("AliInstructor");
+if (ınstructoruser2 is null)
+{
+    var result = await usermanager.CreateAsync(new User()
+    {
+        UserName = "AliInstructor",
+        Email = "AliInstructor@gmail.com",
+        EmailConfirmed = true,
+
+    }, "Instructor123#");
+    if (result.Succeeded)
+    {
+        var instructor = await usermanager.FindByNameAsync ("AliInstructor");
+        await usermanager.AddToRoleAsync(instructor, "Instructor");
+    }
+}
 
 
 
@@ -154,6 +187,7 @@ app.MapControllerRoute(
 
 
 
+// =======================================================================
 
 //var host = builder.Build();
 

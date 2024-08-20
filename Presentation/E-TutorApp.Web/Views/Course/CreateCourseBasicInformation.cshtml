@@ -1,88 +1,55 @@
-﻿@model CourseBasicInfoViewModel
+﻿@model CourseCreateBasicsViewModel
 
-@{
-    Layout = "~/Views/Shared/_CourseCreationLayout.cshtml";
-    ViewBag.Title = "Basic Information";
-}
-
-<h2>Basic Information</h2>
-
-<form asp-action="SaveBasicInformation" method="post">
+<form asp-action="Create" method="post">
     <div class="form-group">
-        <label asp-for="Title" class="control-label"></label>
+        <label asp-for="Title"></label>
         <input asp-for="Title" class="form-control" />
-        <span asp-validation-for="Title" class="text-danger"></span>
     </div>
 
     <div class="form-group">
-        <label asp-for="Subtitle" class="control-label"></label>
+        <label asp-for="Subtitle"></label>
         <input asp-for="Subtitle" class="form-control" />
-        <span asp-validation-for="Subtitle" class="text-danger"></span>
     </div>
 
     <div class="form-group">
-        <label asp-for="CourseCategory" class="control-label"></label>
-        <select asp-for="CourseCategory" class="form-control" asp-items="@(new SelectList(Model.Categories))">
-            <option value="">Select a Category</option>
-        </select>
-        <span asp-validation-for="CourseCategory" class="text-danger"></span>
+        <label asp-for="Topic"></label>
+        <input asp-for="Topic" class="form-control" />
     </div>
 
     <div class="form-group">
-        <label asp-for="CourseSubCategory" class="control-label"></label>
-        <select asp-for="CourseSubCategory" class="form-control" asp-items="@(new SelectList(Model.SubCategories))">
-            <option value="">Select a Sub-category</option>
-        </select>
-        <span asp-validation-for="CourseSubCategory" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
-        <label asp-for="CourseTopic" class="control-label"></label>
-        <input asp-for="CourseTopic" class="form-control" />
-        <span asp-validation-for="CourseTopic" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
-        <label asp-for="CourseLanguage" class="control-label"></label>
-        <select asp-for="CourseLanguage" class="form-control" asp-items="@(new SelectList(Model.Languages))">
-            <option value="">Select a Language</option>
-        </select>
-        <span asp-validation-for="CourseLanguage" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
-        <label asp-for="SubtitleLanguage" class="control-label"></label>
-        <select asp-for="SubtitleLanguage" class="form-control" asp-items="@(new SelectList(Model.SubtitleLanguages))">
-            <option value="">Select a Subtitle Language</option>
-        </select>
-        <span asp-validation-for="SubtitleLanguage" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
-        <label asp-for="CourseLevel" class="control-label"></label>
-        <select asp-for="CourseLevel" class="form-control" asp-items="@(new SelectList(Model.Levels))">
-            <option value="">Select a Level</option>
-        </select>
-        <span asp-validation-for="CourseLevel" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
-        <label asp-for="Duration" class="control-label"></label>
+        <label asp-for="Duration"></label>
         <input asp-for="Duration" class="form-control" />
-        <select asp-for="DurationUnit" class="form-control mt-2" asp-items="@(new SelectList(Model.DurationUnits))">
-            <option value="minutes">Minutes</option>
-            <option value="hours">Hours</option>
-            <option value="days">Days</option>
-        </select>
-        <span asp-validation-for="Duration" class="text-danger"></span>
     </div>
 
     <div class="form-group">
-        <button type="button" class="btn btn-secondary">Cancel</button>
-        <button type="submit" class="btn btn-primary">Save & Next</button>
+        <label asp-for="DurationUnit"></label>
+        <select asp-for="DurationUnit" class="form-control" asp-items="@(new SelectList(ViewBag.DurationUnits))"></select>
     </div>
-</form>
 
-@section Scripts {
-    <partial name="_ValidationScriptsPartial" />
-}
+    <div class="form-group">
+        <label asp-for="Language"></label>
+        <select asp-for="Language" class="form-control" asp-items="@(new SelectList(ViewBag.Languages))"></select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="SubtitleLanguage"></label>
+        <select asp-for="SubtitleLanguage" class="form-control" asp-items="@(new SelectList(ViewBag.SubtitleLanguages))"></select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CategoryName"></label>
+        <select asp-for="CategoryName" class="form-control" asp-items="@(new SelectList(ViewBag.Categories))"></select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="SubCategoryName"></label>
+        <select asp-for="SubCategoryName" class="form-control" asp-items="@(new SelectList(ViewBag.Subcategories))"></select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Level"></label>
+        <select asp-for="Level" class="form-control" asp-items="@(new SelectList(ViewBag.Levels))"></select>
+    </div>
+
+    <button type="submit" class="btn btn-primary" asp-action="CreateCourseBasicInformation" asp-controller="Course">Save and Next</button>
+</form>

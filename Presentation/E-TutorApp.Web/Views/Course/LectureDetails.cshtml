@@ -1,0 +1,19 @@
+﻿@model LectureDetailViewModel
+
+<h2>@Model.LectureName</h2>
+
+<div>
+    <video controls>
+        <source src="@Model.VideoUrl" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+<p><strong>Description:</strong> @Model.Description</p>
+<p><strong>Caption:</strong> @Model.Caption</p>
+<p><strong>Lecture Notes:</strong> @Model.LectureNotes</p>
+
+@if (!string.IsNullOrEmpty(Model.AttachFile))
+{
+    <p><strong>Attachments:</strong> <a href="@Model.AttachFile">Download</a></p>
+}

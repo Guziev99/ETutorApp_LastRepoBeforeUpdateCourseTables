@@ -10,8 +10,8 @@ namespace E_TutorApp.Application.Repositories.CategoryRepos
 {
     public  interface IReadCategoryRepository : IReadGenericRepository<Category>
     {
-        Task<IEnumerable<Course>> GetAllCoursesWithCategoryId(string categoryid);
-        Task<IEnumerable<Course>> GetAllCoursesWithCategoryName(string  categoryName);
+        Task<IEnumerable<CourseBasicInfos>> GetAllCoursesWithCategoryId(string categoryid);
+        Task<IEnumerable<CourseBasicInfos>> GetAllCoursesWithCategoryName(string  categoryName);
         
     }
 }

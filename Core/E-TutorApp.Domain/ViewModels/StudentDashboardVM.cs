@@ -12,7 +12,7 @@ namespace E_TutorApp.Domain.ViewModels
         public int EnrolledCourseCount { get; set; }
         public int CompletedCourseCount { get; set; }
         public int ActiveCourseCount { get; set; }
-        public List<Course> Courses { get; set; }
+        public List<CourseBasicInfos> Courses { get; set; }
     }
 
 }

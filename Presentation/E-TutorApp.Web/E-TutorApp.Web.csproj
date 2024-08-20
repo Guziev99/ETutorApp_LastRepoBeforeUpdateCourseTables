@@ -8,14 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="wwwroot\css\site.css" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="wwwroot\css\site.css" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.7">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -27,6 +19,12 @@
     <ProjectReference Include="..\..\Infrastructure\E-TutorApp.Infrastructure\E-TutorApp.Infrastructure.csproj" />
     <ProjectReference Include="..\..\Infrastructure\E-TutorApp.Persistence\E-TutorApp.Persistence.csproj" />
     
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\thumbnails\" />
+    <Folder Include="wwwroot\uploads\attachments\" />
+    <Folder Include="wwwroot\uploads\videos\" />
   </ItemGroup>
 
 </Project>

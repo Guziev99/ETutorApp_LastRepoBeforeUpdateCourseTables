@@ -1,2 +1,117 @@
 ﻿
 <h1> CreateCourseAdvanceInformation</h1>
+
+
+@* @model YourProjectNamespace.ViewModels.CourseAdvanceCreateViewModel
+
+<form asp-action="CreateAdvance" method="post">
+    <input type="hidden" asp-for="CourseId" />
+
+    <div class="form-group">
+        <label asp-for="ThumbnailUrl"></label>
+        <input asp-for="ThumbnailUrl" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Trailer"></label>
+        <input asp-for="Trailer" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save Course Advance Information</button>
+</form>
+ *@
+
+
+ @model CourseAdvanceCreateViewModel
+
+<form asp-action="CreateCourseAdvanceInformation" asp-controller="Course" method="post" enctype="multipart/form-data">
+    <div asp-validation-summary="All"></div>
+
+    <input type="hidden" asp-for="CourseId" />
+
+    <div class="form-group">
+        <label>Thumbnail Image</label>
+        <input type="file" name="ThumbnailImage" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Trailer Video</label>
+        <input type="file" name="TrailerVideo" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+    </div>
+
+    <div class="form-group">
+        <label>Content Summary</label>
+        <div id="content-summary-container">
+            @for (int i = 0; i < Model.ContentSummary.Count; i++)
+            {
+                <input type="text" name="ContentSummary" value="@Model.ContentSummary[i]" class="form-control mb-2" />
+            }
+        </div>
+        <button type="button" class="btn btn-secondary" id="add-content-summary">Add Content Summary</button>
+    </div>
+
+    <div class="form-group">
+        <label>Target Audience</label>
+        <div id="target-audience-container">
+            @for (int i = 0; i < Model.TargetAudience.Count; i++)
+            {
+                <input type="text" name="TargetAudience" value="@Model.TargetAudience[i]" class="form-control mb-2" />
+            }
+        </div>
+        <button type="button" class="btn btn-secondary" id="add-target-audience">Add Audience</button>
+    </div>
+
+    <div class="form-group">
+        <label>Requirements</label>
+        <div id="requirements-container">
+            @for (int i = 0; i < Model.Requirements.Count; i++)
+            {
+                <input type="text" name="Requirements" value="@Model.Requirements[i]" class="form-control mb-2" />
+            }
+        </div>
+        <button type="button" class="btn btn-secondary" id="add-requirements">Add Requirement</button>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save Advances and Next</button>
+</form>
+
+@section Scripts {
+    <script>
+        document.getElementById('add-content-summary').addEventListener('click', function () {
+            var container = document.getElementById('content-summary-container');
+            var input = document.createElement('input');
+            input.type = 'text';
+            input.name = 'ContentSummary';
+            input.className = 'form-control mb-2';
+            container.appendChild(input);
+        });
+
+        document.getElementById('add-target-audience').addEventListener('click', function () {
+            var container = document.getElementById('target-audience-container');
+            var input = document.createElement('input');
+            input.type = 'text';
+            input.name = 'TargetAudience';
+            input.className = 'form-control mb-2';
+            container.appendChild(input);
+        });
+
+        document.getElementById('add-requirements').addEventListener('click', function () {
+            var container = document.getElementById('requirements-container');
+            var input = document.createElement('input');
+            input.type = 'text';
+            input.name = 'Requirements';
+            input.className = 'form-control mb-2';
+            container.appendChild(input);
+        });
+    </script>
+}

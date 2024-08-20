@@ -34,8 +34,8 @@ namespace E_TutorApp.Domain.Entities.Concretes
         // Foreign Key
 
 
-        public string? InstructorDetailId { get; set; }
-        public string ? StudentDetailId { get; set; }
+        //public string? InstructorDetailId { get; set; }
+        //public string ? StudentDetailId { get; set; }
 
 
 

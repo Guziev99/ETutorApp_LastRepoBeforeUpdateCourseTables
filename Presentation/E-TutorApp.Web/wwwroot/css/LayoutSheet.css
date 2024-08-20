@@ -1,0 +1,189 @@
+﻿html {
+    scrollbar-width: none;
+}
+body {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+select {
+    border: none;
+    background-color: transparent !important;
+    color: #8C94A3 !important;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    background-color: #1D2026;
+    color: #8C94A3;
+}
+
+.navbarclass {
+    background-color: #1D2026 !important;
+    color: #8C94A3 !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.text-dark {
+    color: #8C94A3 !important;
+}
+
+.li {
+    /*padding: 5px;*/
+}
+
+.nav-item a, .navdropdown {
+    font-size: 12px;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link {
+    padding-left: 20px;
+}
+
+.topsitename {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+.siteLogo, .siteBrowse, .dropdown, .searchBar, .siteIcons, .leftsideElements, .rightsideElements {
+    display: inline !important;
+}
+
+#searchBar {
+    background-image: url('../images/magnifyingglass.svg');
+    background-position: 8px 8px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    font-size: 14px;
+    padding: 8px 20px 8px 40px;
+    border: 1px solid #ddd;
+    width: 300px;
+}
+
+/*.siteIcons {
+    margin-left: 16%;
+}*/
+.rightsideElements{
+    text-align: right;
+    right: 10px;
+    position: absolute;
+}
+.siteIcons img {
+    margin-left: 10px;
+    width: 19px;
+}
+
+.leftsideElements, .rightsideElements {
+    width: 49%;
+}
+
+    .rightsideElements img, .rightsideElements button {
+        vertical-align: middle;
+       
+    }
+
+#createAccountBTN {
+    padding: 8px 20px;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 1px;
+    border: 0px;
+    color: #FF6636;
+    background-color: #FFEEE8;
+    margin-left: 3%;
+}
+
+#signInBtn {
+    margin-left: 1%;
+    padding: 8px 20px;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 1px;
+    border: 0px;
+    color: white;
+    background-color: #FF6636;
+}
+
+.etutorfooterinfo {
+    width: 26%;
+}
+
+.topcategory, .quickLinks, .downloadOurApp, .support {
+    width: 17%;
+}
+
+    .etutorfooterinfo, .etutorfooterinfo p, .topcategory p, .topcategory, .quickLinks, .quickLinks p, .support, .support p, .downloadOurApp, .downloadOurApp p {
+        display: inline-block;
+    }
+
+footer a {
+    font-size: 14px;
+}
+
+.topcategory p, .quickLinks p, .support p, .downloadOurApp p {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+.footericons img {
+    display: inline;
+    padding-right: 5px;
+}
+
+footer {
+    background-color: #1D2026;
+    position: relative;
+    bottom: 0 !important;
+    width: 100%;
+    padding: 20px;
+    overflow: hidden;
+    z-index: 100;
+}
+
+.footerdiv {
+    width: 95%;
+}
+
+#linkedin img {
+    box-shadow: 0px 1px 4px #FF6636;
+    padding: 0px;
+}
+
+.footericons {
+    padding-left: 0px;
+}
+
+.downloadOurApp img {
+    width: 140px;
+    height: 60px;
+    padding-bottom: 10px;
+}
+
+.bottomsection p, .bottomsection div {
+    display: inline-block;
+}
+
+.bottomsection select {
+    padding: 5px;
+    border: 1px solid grey;
+    margin-left: 59% !important;
+    width: 135px;
+}
+

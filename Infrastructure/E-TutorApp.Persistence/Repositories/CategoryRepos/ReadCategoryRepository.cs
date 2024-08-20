@@ -18,7 +18,7 @@ namespace E_TutorApp.Persistence.Repositories.CategoryRepos
         {
         }
 
-        public async Task<IEnumerable<Course>?> GetAllCoursesWithCategoryId(string categoryid)
+        public async Task<IEnumerable<CourseBasicInfos>?> GetAllCoursesWithCategoryId(string categoryid)
         {
             //var category = await _table.FirstOrDefaultAsync(c => c.Id == categoryid);
             //if (category is not null)
@@ -32,7 +32,7 @@ namespace E_TutorApp.Persistence.Repositories.CategoryRepos
 
         }
 
-        public async Task<IEnumerable<Course>?> GetAllCoursesWithCategoryName(string categoryName)
+        public async Task<IEnumerable<CourseBasicInfos>?> GetAllCoursesWithCategoryName(string categoryName)
         {
             var courses  =  _table.Include(c => c.Courses).FirstOrDefault(c => c.Name == categoryName)?.Courses!.ToList();
             return courses;

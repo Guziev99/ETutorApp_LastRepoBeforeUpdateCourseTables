@@ -1,1 +1,74 @@
-﻿<h1>Instructor Dashboard</h1>
+﻿
+
+#<!--  ViewModel kullanmadan View -a veri geldiyinde.  -->
+@*
+
+
+@model dynamic
+
+<h1>Instructor Dashboard</h1>
+
+<div class="instructor-profile">
+    <h1>@Model.UserName</h1>
+    <h2>@Model.Address</h2>
+    <p>@Model.Bio</p>
+    <img src="@Model.ProfilePicture" alt="Instructor Image" />
+
+
+
+    <div class="instructor-stats">
+        <p><strong>Courses:</strong> @Model.CourseCount</p>
+        <p><strong>Average Rating:</strong> @Model.RatingScore</p>
+        <p><strong>Student Count:</strong> @Model.StudentCount</p>
+    </div>
+
+    <h3>Courses</h3>
+    <div class="course-list">
+        @foreach (var course in Model.Courses)
+        {
+            <div class="course-item">
+                <img src="@course.imgUrl" alt="Course Image" />
+                <p><strong>Title:</strong> @course.Title</p>
+                <p><strong>Category ID:</strong> @course.CategoryName</p>
+                <p><strong>Price:</strong> $@course.Price</p>
+                <hr />
+            </div>
+        }
+    </div>
+</div> *@
+
+
+<!-- #endregion -->
+
+
+
+
+@model InstructorProfileViewModel
+
+<div class="instructor-profile">
+    <h1>@Model.UserName</h1>
+    <h2>@Model.Title</h2>
+    <p>@Model.AboutMe</p>
+    <img src="@Model.InstructorImg" alt="Instructor Image" />
+
+    <div class="instructor-stats">
+        <p><strong>Courses:</strong> @Model.CourseCount</p>
+        <p><strong>Average Rating:</strong> @Model.RatingScore</p>
+        <p><strong>Student Count:</strong> @Model.StudentCount</p>
+    </div>
+
+    <br /> <br /> <br />
+    <h2>Courses</h2>
+    <div class="course-list">
+        @foreach (var course in Model.Courses)
+        {
+            <div class="course-item">
+                <img src="@course.ImgUrl" alt="Course Image" />
+                <p><strong>Title:</strong> @course.Title</p>
+                <p><strong>Category ID:</strong> @course.CategoryName</p>
+                <p><strong>Price:</strong> $@course.Price</p>
+                <hr />
+            </div>
+        }
+    </div>
+</div>

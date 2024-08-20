@@ -1,4 +1,4 @@
-﻿@model LoginVM
+﻿@* @model LoginVM
 
 
 
@@ -42,3 +42,72 @@
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
 }
+
+ *@
+
+@model LoginViewModel
+@{
+    Layout = "_LoginLayout";
+    var ReturnUrl = ViewData["ReturnUrl"] as string;
+}
+
+
+
+<div class="container-fluid imageside">
+    <img src="~/images/login.svg" />
+</div>
+
+<div class="container-fluid formSide">
+    <div class="signInForm">
+        <h2>Sign in to your account</h2>
+
+        <form method="post" asp-action="Login" asp-controller="Account">
+            <input name="ReturnUrl" value="@ReturnUrl" type="hidden" />  @* GetIlePostaGonderdiyimRequestUrl *@
+
+            <div class="row">
+                <div class="col-sm">
+                    <label asp-for="EmailOrUsername" class="control-label">Email</label> <br />
+                    <input asp-for="EmailOrUsername" type="email" placeholder="Username or email address..." class="textbox" />
+                    <span asp-validation-for="EmailOrUsername" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+
+                    <label asp-for="Password" class="control-label">Password</label><br />
+                    <div class=" password-container">
+                        <input asp-for="Password" type="password" id="password" class=" textbox password-input" placeholder="Password">
+                        <span id="togglePassword" class="toggle-icon"><i class="fas fa-eye"></i></span>
+                    </div>
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row submitrow">
+                <div class="col-sm">
+
+                    <input type="checkbox" class="form-check-input  checkBox" asp-for="RememberMe" /> <span>Remember me</span>
+                </div>
+                <div class="col-sm buttoncol">
+                    <button id="signInBtn" type="submit">Sign In <img src="~/images/arrowright.svg" /></button>
+
+                </div>
+            </div>
+
+        </form>
+    </div>
+    
+</div>
+
+<script>
+    const togglePassword = document.querySelector('#togglePassword');
+    const password = document.querySelector('#password');
+
+    togglePassword.addEventListener('click', function (e) {
+        // toggle the type attribute
+        const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+        password.setAttribute('type', type);
+        // toggle the eye / eye slash icon
+        this.querySelector('i').classList.toggle('fa-eye');
+        this.querySelector('i').classList.toggle('fa-eye-slash');
+    });
+</script>

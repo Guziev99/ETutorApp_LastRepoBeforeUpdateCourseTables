@@ -1,0 +1,9 @@
+﻿.col {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+
+.col img{
+    margin-right: 10px;
+}

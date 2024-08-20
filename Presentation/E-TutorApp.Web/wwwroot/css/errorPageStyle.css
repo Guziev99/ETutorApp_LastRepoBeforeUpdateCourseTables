@@ -1,0 +1,52 @@
+﻿body {
+    font-family: 'Inter';
+}
+
+.imageside{
+    width: 55%;
+}
+.ErrorImage {
+    width: 100%;
+    height: 100%;
+    margin-left: 23px;
+    object-fit: cover;
+    object-position: 15% 100%;
+    margin-top: -70px;
+}
+
+.errorTextSide{
+
+    margin: 20% 5% 0px 30%;
+}
+    .errorTextSide h1, .errorTextSide p{
+        margin-bottom: 10px;
+    }
+
+.headerText {
+    font-size: 60px;
+    color: #E9EAF0;
+    font-weight: 600;
+}
+
+
+.textCol{
+    width: 45%;
+}
+.errorTextSide h1{
+    font-weight: 600;
+}
+
+.errormessage {
+    color: #4E5566;
+}
+.errorTextSide button {
+    margin-left: 1%;
+    padding: 10px 25px;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 1px;
+    border: 0px;
+    color: white;
+    background-color: #FF6636;
+    margin-top: 15px;
+}

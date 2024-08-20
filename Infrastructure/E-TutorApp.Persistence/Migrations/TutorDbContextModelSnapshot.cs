@@ -22,7 +22,7 @@ namespace E_TutorApp.Persistence.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("CourseDetailStudent", b =>
+            modelBuilder.Entity("CourseBasicInfosDetailStudent", b =>
                 {
                     b.Property<string>("EnrolledCoursesOfStudentId")
                         .HasColumnType("nvarchar(450)");
@@ -34,39 +34,7 @@ namespace E_TutorApp.Persistence.Migrations
 
                     b.HasIndex("StudentsId");
 
-                    b.ToTable("CourseDetailStudent");
-                });
-
-            modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.Attachment", b =>
-                {
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<string>("Assignment")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("ImageUrl")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("LectureId")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<string>("MaterialUrl")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime?>("UpdatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("LectureId")
-                        .IsUnique()
-                        .HasFilter("[LectureId] IS NOT NULL");
-
-                    b.ToTable("Attachments");
+                    b.ToTable("CourseBasicInfosDetailStudent");
                 });
 
             modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.Category", b =>
@@ -96,7 +64,48 @@ namespace E_TutorApp.Persistence.Migrations
                     b.ToTable("Categories");
                 });
 
-            modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.Course", b =>
+            modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.CourseAdvanceInfos", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("BasicInfosId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("ContentSummary")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Requirements")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("TargetAudience")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ThumbnailUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Trailer")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BasicInfosId")
+                        .IsUnique();
+
+                    b.ToTable("CourseAdvances");
+                });
+
+            modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.CourseBasicInfos", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
@@ -105,17 +114,19 @@ namespace E_TutorApp.Persistence.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
+                    b.Property<string>("CategoryName")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("Description")
+                    b.Property<string>("Duration")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ImageUrl")
+                    b.Property<string>("DurationUnit")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("InstructorId")
-                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<bool>("IsActive")
@@ -124,16 +135,34 @@ namespace E_TutorApp.Persistence.Migrations
                     b.Property<bool?>("IsCompleted")
                         .HasColumnType("bit");
 
-                    b.Property<string>("Name")
+                    b.Property<string>("Language")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Level")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<float?>("Price")
                         .HasColumnType("real");
 
+                    b.Property<float?>("RatingScore")
+                        .HasColumnType("real");
+
                     b.Property<int>("SaleCount")
                         .HasColumnType("int");
 
+                    b.Property<string>("SubCategoryName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Subtitle")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("SubtitleLanguage")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Title")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Topic")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("UpdatedAt")
@@ -145,15 +174,15 @@ namespace E_TutorApp.Persistence.Migrations
 
                     b.HasIndex("InstructorId");
 
-                    b.ToTable("Courses");
+                    b.ToTable("CourseBasics");
                 });
 
-            modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.Curriculum", b =>
+            modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.CourseCurriculum", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<string>("CourseId")
+                    b.Property<string>("AdvanceInfosId")
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
@@ -165,10 +194,77 @@ namespace E_TutorApp.Persistence.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CourseId")
+                    b.HasIndex("AdvanceInfosId")
                         .IsUnique();
 
-                    b.ToTable("Curriculums");
+                    b.ToTable("CourseCurriculum");
+                });
+
+            modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.CourseLecture", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("AttachFileUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Caption")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LectureNotes")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("SectionId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("VideoUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("SectionId");
+
+                    b.ToTable("CourseLectures");
+                });
+
+            modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.CourseSection", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("CurriculumId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CurriculumId");
+
+                    b.ToTable("CourseSections");
                 });
 
             modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.DetailInstructor", b =>
@@ -214,7 +310,44 @@ namespace E_TutorApp.Persistence.Migrations
                     b.HasIndex("StudentId")
                         .IsUnique();
 
-                    b.ToTable("DetailStudent");
+                    b.ToTable("DetailStudents");
+                });
+
+            modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.Feedback", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("CourseInfosId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<float?>("GivenRating")
+                        .HasColumnType("real");
+
+                    b.Property<string>("LectureId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("ReviewText")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Username")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CourseInfosId");
+
+                    b.HasIndex("LectureId");
+
+                    b.ToTable("Feedbacks");
                 });
 
             modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.Invoice", b =>
@@ -253,70 +386,6 @@ namespace E_TutorApp.Persistence.Migrations
                     b.ToTable("Invoices");
                 });
 
-            modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.Lecture", b =>
-                {
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("SectureId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<string>("Title")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime?>("UpdatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("VideoUrl")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("SectureId");
-
-                    b.ToTable("Lectures");
-                });
-
-            modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.Secture", b =>
-                {
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("CurriculumId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime?>("UpdatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("CurriculumId");
-
-                    b.ToTable("Sectures");
-                });
-
             modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.User", b =>
                 {
                     b.Property<string>("Id")
@@ -343,9 +412,6 @@ namespace E_TutorApp.Persistence.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("FirstName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("InstructorDetailId")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("LastName")
@@ -380,9 +446,6 @@ namespace E_TutorApp.Persistence.Migrations
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("StudentDetailId")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<bool>("TwoFactorEnabled")
                         .HasColumnType("bit");
 
@@ -401,33 +464,6 @@ namespace E_TutorApp.Persistence.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
-                });
-
-            modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.Video", b =>
-                {
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("LectureId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<DateTime?>("UpdatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("VideoUrl")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("LectureId")
-                        .IsUnique();
-
-                    b.ToTable("Videos");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -563,9 +599,9 @@ namespace E_TutorApp.Persistence.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("CourseDetailStudent", b =>
+            modelBuilder.Entity("CourseBasicInfosDetailStudent", b =>
                 {
-                    b.HasOne("E_TutorApp.Domain.Entities.Concretes.Course", null)
+                    b.HasOne("E_TutorApp.Domain.Entities.Concretes.CourseBasicInfos", null)
                         .WithMany()
                         .HasForeignKey("EnrolledCoursesOfStudentId")
                         .OnDelete(DeleteBehavior.NoAction)
@@ -578,17 +614,18 @@ namespace E_TutorApp.Persistence.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.Attachment", b =>
+            modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.CourseAdvanceInfos", b =>
                 {
-                    b.HasOne("E_TutorApp.Domain.Entities.Concretes.Lecture", "Lecture")
-                        .WithOne("Attachment")
-                        .HasForeignKey("E_TutorApp.Domain.Entities.Concretes.Attachment", "LectureId")
-                        .OnDelete(DeleteBehavior.NoAction);
+                    b.HasOne("E_TutorApp.Domain.Entities.Concretes.CourseBasicInfos", "BasicInfos")
+                        .WithOne("AdvanceInfos")
+                        .HasForeignKey("E_TutorApp.Domain.Entities.Concretes.CourseAdvanceInfos", "BasicInfosId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
 
-                    b.Navigation("Lecture");
+                    b.Navigation("BasicInfos");
                 });
 
-            modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.Course", b =>
+            modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.CourseBasicInfos", b =>
                 {
                     b.HasOne("E_TutorApp.Domain.Entities.Concretes.Category", "Category")
                         .WithMany("Courses")
@@ -599,23 +636,44 @@ namespace E_TutorApp.Persistence.Migrations
                     b.HasOne("E_TutorApp.Domain.Entities.Concretes.DetailInstructor", "Instructor")
                         .WithMany("AllCoursesOfInstructor")
                         .HasForeignKey("InstructorId")
-                        .OnDelete(DeleteBehavior.NoAction)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.NoAction);
 
                     b.Navigation("Category");
 
                     b.Navigation("Instructor");
                 });
 
-            modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.Curriculum", b =>
+            modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.CourseCurriculum", b =>
                 {
-                    b.HasOne("E_TutorApp.Domain.Entities.Concretes.Course", "Course")
+                    b.HasOne("E_TutorApp.Domain.Entities.Concretes.CourseAdvanceInfos", "AdvanceInfos")
                         .WithOne("Curriculum")
-                        .HasForeignKey("E_TutorApp.Domain.Entities.Concretes.Curriculum", "CourseId")
+                        .HasForeignKey("E_TutorApp.Domain.Entities.Concretes.CourseCurriculum", "AdvanceInfosId")
                         .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
-                    b.Navigation("Course");
+                    b.Navigation("AdvanceInfos");
+                });
+
+            modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.CourseLecture", b =>
+                {
+                    b.HasOne("E_TutorApp.Domain.Entities.Concretes.CourseSection", "Section")
+                        .WithMany("Lectures")
+                        .HasForeignKey("SectionId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.Navigation("Section");
+                });
+
+            modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.CourseSection", b =>
+                {
+                    b.HasOne("E_TutorApp.Domain.Entities.Concretes.CourseCurriculum", "Curriculum")
+                        .WithMany("Sections")
+                        .HasForeignKey("CurriculumId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.Navigation("Curriculum");
                 });
 
             modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.DetailInstructor", b =>
@@ -640,48 +698,32 @@ namespace E_TutorApp.Persistence.Migrations
                     b.Navigation("Student");
                 });
 
+            modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.Feedback", b =>
+                {
+                    b.HasOne("E_TutorApp.Domain.Entities.Concretes.CourseBasicInfos", "CourseInfos")
+                        .WithMany("Feedbacks")
+                        .HasForeignKey("CourseInfosId")
+                        .OnDelete(DeleteBehavior.NoAction);
+
+                    b.HasOne("E_TutorApp.Domain.Entities.Concretes.CourseLecture", "Lecture")
+                        .WithMany("Comments")
+                        .HasForeignKey("LectureId")
+                        .OnDelete(DeleteBehavior.NoAction);
+
+                    b.Navigation("CourseInfos");
+
+                    b.Navigation("Lecture");
+                });
+
             modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.Invoice", b =>
                 {
-                    b.HasOne("E_TutorApp.Domain.Entities.Concretes.Course", "Course")
-                        .WithMany("ForInvoices")
+                    b.HasOne("E_TutorApp.Domain.Entities.Concretes.CourseBasicInfos", "Course")
+                        .WithMany("Invoices")
                         .HasForeignKey("CourseId")
                         .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
                     b.Navigation("Course");
-                });
-
-            modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.Lecture", b =>
-                {
-                    b.HasOne("E_TutorApp.Domain.Entities.Concretes.Secture", "Secture")
-                        .WithMany("Lectures")
-                        .HasForeignKey("SectureId")
-                        .OnDelete(DeleteBehavior.NoAction)
-                        .IsRequired();
-
-                    b.Navigation("Secture");
-                });
-
-            modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.Secture", b =>
-                {
-                    b.HasOne("E_TutorApp.Domain.Entities.Concretes.Curriculum", "Curriculum")
-                        .WithMany("Sectures")
-                        .HasForeignKey("CurriculumId")
-                        .OnDelete(DeleteBehavior.NoAction)
-                        .IsRequired();
-
-                    b.Navigation("Curriculum");
-                });
-
-            modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.Video", b =>
-                {
-                    b.HasOne("E_TutorApp.Domain.Entities.Concretes.Lecture", "Lecture")
-                        .WithOne("Video")
-                        .HasForeignKey("E_TutorApp.Domain.Entities.Concretes.Video", "LectureId")
-                        .OnDelete(DeleteBehavior.NoAction)
-                        .IsRequired();
-
-                    b.Navigation("Lecture");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -740,35 +782,38 @@ namespace E_TutorApp.Persistence.Migrations
                     b.Navigation("Courses");
                 });
 
-            modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.Course", b =>
+            modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.CourseAdvanceInfos", b =>
                 {
-                    b.Navigation("Curriculum")
-                        .IsRequired();
-
-                    b.Navigation("ForInvoices");
+                    b.Navigation("Curriculum");
                 });
 
-            modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.Curriculum", b =>
+            modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.CourseBasicInfos", b =>
                 {
-                    b.Navigation("Sectures");
+                    b.Navigation("AdvanceInfos");
+
+                    b.Navigation("Feedbacks");
+
+                    b.Navigation("Invoices");
+                });
+
+            modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.CourseCurriculum", b =>
+                {
+                    b.Navigation("Sections");
+                });
+
+            modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.CourseLecture", b =>
+                {
+                    b.Navigation("Comments");
+                });
+
+            modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.CourseSection", b =>
+                {
+                    b.Navigation("Lectures");
                 });
 
             modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.DetailInstructor", b =>
                 {
                     b.Navigation("AllCoursesOfInstructor");
-                });
-
-            modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.Lecture", b =>
-                {
-                    b.Navigation("Attachment");
-
-                    b.Navigation("Video")
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.Secture", b =>
-                {
-                    b.Navigation("Lectures");
                 });
 
             modelBuilder.Entity("E_TutorApp.Domain.Entities.Concretes.User", b =>

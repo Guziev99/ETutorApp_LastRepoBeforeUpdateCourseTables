@@ -1,55 +1,21 @@
-﻿/* site.css */
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
 
 body {
-    font-family: Arial, sans-serif;
 }
-
-header {
-    background-color: #333;
-    padding: 1rem;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-    nav ul li {
-        display: inline;
-        margin-right: 1rem;
-    }
-
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-        }
-
-form {
-    margin-bottom: 2rem;
-}
-
-.course-item {
-    border: 1px solid #ddd;
-    padding: 1rem;
-    margin-bottom: 1rem;
-}
-
-    .course-item img {
-        max-width: 100px;
-        height: auto;
-        display: block;
-    }
-
-    .course-item h3 {
-        margin: 0;
-        font-size: 1.5rem;
-    }
-
-    .course-item p {
-        margin: 0.5rem 0;
-    }
-
-    .course-item a {
-        color: #007bff;
-        text-decoration: none;
-    }

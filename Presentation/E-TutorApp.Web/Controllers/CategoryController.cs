@@ -82,10 +82,10 @@ namespace E_TutorApp.Web.Controllers
                 var coursesVm = courses!.Select(c =>
                 new CourseDTO()
                 {
-                    Name = c.Name,
-                    Description = c.Description,
-                    ImageUrl = c.ImageUrl,
-                    CategoryName = c.Category.Name,
+                    Name = c.Subtitle ,
+                    Description = c.AdvanceInfos.Description,
+                    ImageUrl = c.AdvanceInfos.ThumbnailUrl,
+                    CategoryName = c.CategoryName,
                     InstructorId = c.InstructorId,
                     Price = c.Price,
                     Title = c.Title

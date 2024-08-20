@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="~/css/loginstyle.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+    <div class="loginHeaderHr">
+        <div class="container-fluid loginHeader">
+            <div class="container-fluid siteLogo" style="margin-right: 100px;">
+                <a class="navbar-brand topsitename" asp-area="" asp-controller="Home" asp-action="Index" style="font-size: 22px;">
+                    <img src="~/images/graduationcap.svg" width="35px" style="padding-bottom: 7px;" />
+                    <span id="headerspan">E-tutor</span>
+                </a>
+            </div>
+            <div class="container-fluid">
+                <span class="dontHaveAccount">Don’t have account?</span>
+                <button asp-action ="Register" asp-controller ="Account" type="submit"  id="createAccountBTN">Create Account</button>
+            </div>
+        </div>
+        <hr />
+    </div>
+
+    <div class=" LoginRegister">
+        @RenderBody()
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

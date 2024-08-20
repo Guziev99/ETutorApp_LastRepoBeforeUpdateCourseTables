@@ -1,0 +1,190 @@
+﻿body {
+    font-family: 'Inter';
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.loginHeaderHr hr {
+    margin: 0px;
+    color: #E9EAF0;
+    height: 2px;
+}
+
+.loginHeader {
+    display: flex;
+    text-align: center;
+    padding: 20px 20px 5px 20px;
+}
+
+#createAccountBTN {
+    padding: 8px 20px;
+    font-weight: 660;
+    font-size: 14px;
+    border-radius: 1px;
+    border: 0px;
+    color: #FF6636;
+    background-color: #FFEEE8;
+    margin: 0px 0px 10px 3%;
+    
+}
+
+.loginHeader a {
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.dontHaveAccount {
+    font-size: 13px;
+    color: #4E5566;
+    font-weight: 450;
+}
+
+.imageside {
+    background-color: #EBEBFF;
+    width: 80%;
+    height: 100%;
+}
+
+    .imageside img {
+        width: 100%;
+        margin-top: 65px;
+    }
+
+.LoginRegister {
+    display: flex;
+}
+
+
+.signInForm {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30%;
+    width: 70%;
+}
+
+
+.formSide h2, .signUpForm h2{
+    text-align: center;
+    font-weight: 600;
+}
+
+    .formSide .textbox {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #E9EAF0;
+        font-size: 14px;
+    }
+
+.formSide .checkBox {
+    border-radius: 0;
+    border: 1px solid #CED1D9;
+    transform: scale(1.5);
+    position: relative;
+    top: -1px;
+    width: 15px;
+    height: 15px;
+}
+
+#headerspan {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+label{
+    font-size: 12px;
+    padding: 8px 0px 10px 0px;
+}
+.submitrow{
+    margin-top: 20px;
+}
+.buttoncol{
+    text-align:right;
+}
+.submitrow span{
+    font-size: 12px;
+    padding-left: 8px;
+    top: 1px;
+
+}
+input[type="checkbox"] {
+    /* Appearance reset for the checkbox */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* Custom styling */
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid #ccd1d9;
+    border-radius: 0; /* Ensure it's square */
+    cursor: pointer;
+}
+
+    input[type="checkbox"]:checked {
+        background-color: #007bff; /* Change color when checked */
+    }
+.password-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccd1d9;
+    padding: 0px;
+    width: 100%;
+}
+
+.password-container .textbox{
+    border: none;
+}
+
+.password-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.toggle-icon {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.signUpForm {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18%;
+    width: 70%;
+}
+
+.textboxSignUp {
+    width: 100%;
+    padding: 10px;
+    padding: 10px;
+    border: 1px solid #CED1D9;
+    font-size: 12px;
+}
+
+.submitrow button {
+    font-size: 14px;
+    margin-left: 1%;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 1px;
+    border: 0px;
+    color: white;
+    background-color: #FF6636;
+}
+#signInBtn {
+    padding: 8px 20px;
+}
+#signUpBtn {
+    padding: 8px 20px;
+}
+
+.validationText{
+    font-size: 12px;
+}
+
+.password{
+    border: none;
+}

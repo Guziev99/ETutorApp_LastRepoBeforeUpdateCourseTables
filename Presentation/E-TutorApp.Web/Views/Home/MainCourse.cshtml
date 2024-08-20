@@ -1,0 +1,36 @@
+﻿@model MainCourseVM
+
+<h1>@Model!.Title</h1>
+<h2>@Model!.Subtitle</h2>
+<p><strong>Instructor:</strong> @Model!.InstructorName</p>
+
+<video width="300" height="500" controls>
+    <source src="@Model!.TrailerVideo" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+
+<p>@Model!.Description</p>
+
+<h3>Requirements</h3>
+@if(Model.Requirements is not null){
+    <ul>
+        @foreach (var requirement in Model!.Requirements!)
+        {
+            <li>@requirement</li>
+        }
+    </ul>
+}
+
+
+<h3>Curriculum</h3>
+@if (Model.Curriculum is not null)
+{
+    <ul>
+        @foreach (var item in Model!.Curriculum!)
+        {
+            <li>@item!</li>
+        }
+    </ul>
+};
+

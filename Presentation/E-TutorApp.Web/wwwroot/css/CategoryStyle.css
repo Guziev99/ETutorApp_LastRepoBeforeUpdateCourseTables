@@ -1,0 +1,142 @@
+﻿body {
+}
+
+.categoriesSearch, .courseList {
+    margin-top: 30px;
+    display: flex;
+    width: 70%;
+}
+.searchandfilter, .filterLeftSide {
+    display: flex;
+}
+.filter img, .filter label, .filter span {
+    margin: 0px 6px;
+    font-size: 14px;
+}
+.filter {
+    border: 1px solid #FFDDD1;
+    border-radius: 0px;
+    width: 140px;
+}
+.btn {
+    padding: .275rem .65rem;
+}
+
+.filter label{
+    font-weight: bold;
+}
+
+    .filter span {
+        color: #FF6636;
+        background-color: #FFEEE8;
+        font-weight: 700;
+        font-size: 12px;
+    }
+
+.filter img{
+    width: 27px;
+}
+
+
+.searchandfilter .searchBar {
+    margin-left: 20px;
+}
+
+.filterLeftSide{
+    margin-left:350px;
+
+}
+
+.filterLeftSide span {
+    padding-top: 8px;
+    font-size: 12px;
+    color: #4E5566;
+}
+
+#dropdownMenuButton {
+    border: 1px solid #E9EAF0;
+    border-radius: 0px;
+    margin-left: 10px;
+    padding: 6px 20px;
+}
+
+.card {
+    width: 230px;
+    background-color: white;
+    border-radius: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    position:static;
+}
+
+    .card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+.card-content {
+    padding: 15px;
+}
+
+    .card-content h4 {
+        margin: 0;
+        font-size: 20px;
+        color: #333;
+    }
+
+    .card-content p {
+        margin: 5px 0;
+        color: #882929;
+        font-size: 14px;
+        background-color: #FFF0F0;
+    }
+
+.card-footer {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #eaeaea;
+}
+
+    .card-footer .rating {
+        display: flex;
+        align-items: center;
+        color: #f4b400;
+    }
+
+        .card-footer .rating span {
+            margin-left: 5px;
+            color: #333;
+        }
+
+    .card-footer .students {
+        display: flex;
+        align-items: center;
+        color: #333;
+    }
+
+        .card-footer .students span {
+            margin-left: 5px;
+            color: #333;
+        }
+
+.card-content-header .price {
+    margin-left: 100px;
+    font-size: 18px;
+    color: #e85d04;
+    font-weight: bold;
+}
+
+.card-content-header{
+    display: flex;
+}
+
+.courseList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}

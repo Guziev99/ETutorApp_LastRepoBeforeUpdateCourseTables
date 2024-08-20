@@ -15,6 +15,6 @@ namespace E_TutorApp.Domain.Entities.Concretes
 
         // Navigation Property
 
-        public virtual ICollection<Course>? Courses { get; set; }
+        public virtual ICollection<CourseBasicInfos>? Courses { get; set; }
     }
 }

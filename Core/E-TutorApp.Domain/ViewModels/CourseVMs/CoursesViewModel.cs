@@ -9,8 +9,8 @@ namespace E_TutorApp.Domain.ViewModels.CourseVMs
 {
     public class CoursesViewModel
     {
-        public string CourseName { get; set; }
-        public string Filter { get; set; }
-        public List<Course> Courses { get; set; }
+        public string? CourseName { get; set; }
+        public string? Filter { get; set; }
+        public List<CourseBasicInfos>? Courses { get; set; }
     }
 }

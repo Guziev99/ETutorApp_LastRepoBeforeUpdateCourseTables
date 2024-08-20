@@ -9,6 +9,7 @@ using System.Net.Mail;
 using System.Net;
 using System.Text.RegularExpressions;
 using E_TutorApp.Application.Services;
+using E_TutorApp.Domain.ViewModels.AccountVMs;
 
 namespace E_TutorApp.Web.Controllers
 {
@@ -34,16 +35,16 @@ namespace E_TutorApp.Web.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Login(LoginVM loginVM, string? ReturnUrl = null)
+        public async Task<IActionResult> Login(LoginViewModel loginVM, string? ReturnUrl = null)
         {
             if(!ModelState.IsValid) return View(loginVM);
             var user = new User();
-            if (GetInputType(loginVM.UserNameOrEmail) == "email")
+            if (GetInputType(loginVM.EmailOrUsername) == "email")
             {
-                 user = await _userManager.FindByEmailAsync(loginVM.UserNameOrEmail);
+                 user = await _userManager.FindByEmailAsync(loginVM.EmailOrUsername);
             }
             else 
-            {    user = await _userManager.FindByNameAsync(loginVM.UserNameOrEmail); }
+            {    user = await _userManager.FindByNameAsync(loginVM.EmailOrUsername); }
 
             if(user is null) { ModelState.AddModelError("All", "User Not found"); return View(loginVM); }
             if(!user.EmailConfirmed ) { ModelState.AddModelError("All", "Email not confirmed"); return View(loginVM); }
@@ -116,17 +117,17 @@ namespace E_TutorApp.Web.Controllers
             return View();
         }
 
-        public async Task<IActionResult> Register(RegisterVM registerVM)
+        public async Task<IActionResult> Register(RegisterViewModel registerVM)
         {
             if (!ModelState.IsValid) return View(registerVM);
-            if (!registerVM.Agreed) { ModelState.AddModelError("All", "You must agree to the terms and conditions before proceeding."); return View(registerVM); }
+            if (!registerVM.Conditions) { ModelState.AddModelError("All", "You must agree to the terms and conditions before proceeding."); return View(registerVM); }
 
             var newUser = new User()
             {
                 Bio = "Me",
                 ProfilePicture = "Me.jpeg",
                 LastName = registerVM.LastName,
-                UserName = registerVM.UserName,
+                UserName = registerVM.Username,
                 Email = registerVM.Email,
             };
             var result = await _userManager.CreateAsync(newUser, registerVM.Password);
@@ -139,6 +140,11 @@ namespace E_TutorApp.Web.Controllers
                 await _emailService.SendEmail(newUser.Email, confirmationLink);
 
                 await _userManager.AddToRoleAsync(newUser, "Student");
+
+                var studDetail = new DetailStudent () { Student =  newUser, StudentId = newUser.Id };
+                await _context.DetailStudents .AddAsync(studDetail);
+                await _context.SaveChangesAsync();
+
                 return RedirectToAction("Login", "Account");
             }
             else

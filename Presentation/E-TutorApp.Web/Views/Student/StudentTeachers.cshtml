@@ -1,0 +1,20 @@
+﻿@model List<E_TutorApp.Domain.Entities.Concretes.DetailInstructor>
+
+<h1>Instructor Usernames</h1>
+<ul>
+    @if(Model is not null)
+    {
+        @foreach (var instructor in Model)
+        {
+            if (instructor is not null)
+            {
+                <li>@instructor.Id</li>
+                <li>@instructor.Instructor!?.UserName</li>
+                <li>@instructor.Instructor!?.Email</li>
+                <li> <img src="@instructor.Instructor!?.ProfilePicture!?" /></li>
+            }
+
+        }
+    }
+    
+</ul>

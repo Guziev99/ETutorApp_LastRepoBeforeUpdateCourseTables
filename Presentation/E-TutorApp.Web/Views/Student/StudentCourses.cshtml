@@ -25,14 +25,24 @@
     <button type="submit">Apply</button>
 </form>
 
-<div>
-    @foreach (var course in Model.Courses)
+<div> 
+    @if(Model.Courses is not null)
     {
-        <div class="course-item">
-            <img src="@course.ImageUrl" alt="@course.Name" />
-            <h3>@course.Name</h3>
-            <p>@course.Title</p>
-            <a href="/Courses/Watch/@course.Id">Watch</a>
-        </div>
+        foreach (var course in Model.Courses!)
+        {
+            if(course is not null)
+            {
+                if(course is not null)
+                {
+                    <div class="course-item">
+                        <img src="@course!.AdvanceInfos!.ThumbnailUrl!" alt="@course!.Subtitle!" />
+                        <h3>@course!.Subtitle!</h3>
+                        <p>@course!.Title!</p>
+                        <a href="/Courses/Watch/@course!.Id!">Watch</a>
+                    </div>
+                }
+            }
+        }
     }
+    
 </div>

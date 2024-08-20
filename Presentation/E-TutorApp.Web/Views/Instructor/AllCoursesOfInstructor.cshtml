@@ -1,0 +1,70 @@
+﻿@model List<AllCoursesOfInstructorVM>;
+@* 
+
+<div class="course-list">
+    @foreach (var course in Model)
+    {
+            <div class="course-item">
+    <img src="@course.ImgUrl" alt="Course Image" />
+    <p><strong>Title:</strong> @course.Title</p>
+    <p><strong>Category Name:</strong> @course.CategoryName</p>
+    <p><strong>Price:</strong> $@course.Price</p>
+        <p><strong>Rating:</strong> $@course.RatingScore</p>
+        <p><strong>SaleCount:</strong> $@course.SaleCount</p>
+    <hr />
+            </div>
+    }
+</div>
+ *@
+
+@* 
+<h2>All Courses</h2>
+
+<table>
+    <tr>
+        <th>Category</th>
+        <th>Image</th>
+        <th>Price</th>
+        <th>Rating</th>
+        <th>Sales</th>
+        <th>Title</th>
+    </tr>
+    @foreach (var course in Model)
+    {
+        <tr>
+            <td>@course.CategoryName</td>
+            <td><img src="@course.ImgUrl" alt="@course.Title" width="100" /></td>
+            <td>@course.Price</td>
+            <td>@course.RatingScore</td>
+            <td>@course.SaleCount</td>
+            <td>@course.Title</td>
+        </tr>
+    }
+</table> *@
+
+
+
+<h2>All Courses</h2>
+
+<div class="row">
+    @foreach (var course in Model)
+    {
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="@course.ImgUrl" width="80" height="500" class="card-img-top" alt="@course.Title" />
+                <div class="card-body">
+                    <h5 class="card-title">@course.Title</h5>
+                    <p class="card-text">
+                        <strong>Category:</strong> @course.CategoryName<br />
+                        <strong>Price:</strong> $@course.Price<br />
+                        <strong>Rating:</strong> @course.RatingScore<br />
+                        <strong>Sales:</strong> @course.SaleCount
+                    </p>
+                </div>
+                <div class="card-footer text-center">
+                    <a href="#" class="btn btn-primary">View Course</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

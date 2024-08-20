@@ -1,0 +1,65 @@
+﻿body {
+      font-family: 'Inter';
+}
+
+.mainbody {
+   padding: 0px;
+    width: 100%;
+}
+.topdiv {
+    background-image: linear-gradient(transparent, #F0F2F5);
+}
+.textandimage {
+    margin: 0% 0% 3% 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.textSide{
+    padding-left: 15%;
+}
+.textSide h2, .textSide p, .textSide button{
+    margin: 10px 0px;
+}
+
+.textSide p {
+    color: #4E5566;
+    font-size: 21px;
+}
+
+.createAccount {
+    padding: 12px 30px;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 1px;
+    border: 0px;
+    color: #FFEEE8;
+    background-color: #FF6636;
+    margin-left: 3%;
+}
+.homepageimagecss{
+    width: 45%;
+    height: auto;
+    margin-top: -4px;
+}
+
+.mainsen {
+    font-family: 'Roboto';
+    font-size: 50px;
+    font-weight: bold;
+    color: #1D2026;
+}
+
+.textSide h1{
+    font-size: 56px;
+}
+
+.browseTopCategory{
+    text-align: center;
+    width: 75%;
+}
+
+    .browseTopCategory h2, .browseAll {
+        padding: 25px;
+    }

@@ -42,12 +42,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ291cnNlc0J5Q2F0ZWdvcnlOYW1lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/User/Videos/курсовая работа/new/new/E-TutorApp/Presentation/E-TutorApp.Web/Views/Course/CourseIzle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXENvdXJzZUl6bGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/User/Videos/курсовая работа/new/new/E-TutorApp/Presentation/E-TutorApp.Web/Views/Course/CreateCourseAdvanceInformation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXENyZWF0ZUNvdXJzZUFkdmFuY2VJbmZvcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/User/Videos/курсовая работа/new/new/E-TutorApp/Presentation/E-TutorApp.Web/Views/Course/CreateCourseBasicInformation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXENyZWF0ZUNvdXJzZUJhc2ljSW5mb3JtYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Videos/курсовая работа/new/new/E-TutorApp/Presentation/E-TutorApp.Web/Views/Course/CreateCurriculum.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXENyZWF0ZUN1cnJpY3VsdW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Videos/курсовая работа/new/new/E-TutorApp/Presentation/E-TutorApp.Web/Views/Course/LectureDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXExlY3R1cmVEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Videos/курсовая работа/new/new/E-TutorApp/Presentation/E-TutorApp.Web/Views/Home/Categories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXRlZ29yaWVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/User/Videos/курсовая работа/new/new/E-TutorApp/Presentation/E-TutorApp.Web/Views/Home/Dashboard.cshtml]
@@ -66,12 +82,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleDIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/User/Videos/курсовая работа/new/new/E-TutorApp/Presentation/E-TutorApp.Web/Views/Home/MainCourse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNYWluQ291cnNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/User/Videos/курсовая работа/new/new/E-TutorApp/Presentation/E-TutorApp.Web/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/User/Videos/курсовая работа/new/new/E-TutorApp/Presentation/E-TutorApp.Web/Views/Home/_HomeAllCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfSG9tZUFsbENhdGVnb3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Videos/курсовая работа/new/new/E-TutorApp/Presentation/E-TutorApp.Web/Views/Instructor/AllCoursesOfInstructor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxBbGxDb3Vyc2VzT2ZJbnN0cnVjdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/User/Videos/курсовая работа/new/new/E-TutorApp/Presentation/E-TutorApp.Web/Views/Instructor/InstructorDashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxJbnN0cnVjdG9yRGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Videos/курсовая работа/new/new/E-TutorApp/Presentation/E-TutorApp.Web/Views/Shared/Components/Category/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2F0ZWdvcnlcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/User/Videos/курсовая работа/new/new/E-TutorApp/Presentation/E-TutorApp.Web/Views/Shared/Error.cshtml]
@@ -80,6 +112,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/User/Videos/курсовая работа/new/new/E-TutorApp/Presentation/E-TutorApp.Web/Views/Shared/_CourseCreationLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Db3Vyc2VDcmVhdGlvbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Videos/курсовая работа/new/new/E-TutorApp/Presentation/E-TutorApp.Web/Views/Shared/_LoginLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/User/Videos/курсовая работа/new/new/E-TutorApp/Presentation/E-TutorApp.Web/Views/Shared/_StudentLayout.cshtml]
@@ -96,6 +132,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/User/Videos/курсовая работа/new/new/E-TutorApp/Presentation/E-TutorApp.Web/Views/Student/StudentDashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTdHVkZW50RGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Videos/курсовая работа/new/new/E-TutorApp/Presentation/E-TutorApp.Web/Views/Student/StudentTeachers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTdHVkZW50VGVhY2hlcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/User/Videos/курсовая работа/new/new/E-TutorApp/Presentation/E-TutorApp.Web/Views/_ViewImports.cshtml]

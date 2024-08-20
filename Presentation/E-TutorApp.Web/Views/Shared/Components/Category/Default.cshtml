@@ -1,0 +1,41 @@
+﻿<style>
+    .hidden {
+        display: none;
+    }
+
+    .filter-section {
+        margin: 20px;
+    }
+
+    .filter-button {
+        background-color: #f0f0f0;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .filter-content {
+        margin-top: 10px;
+        border: 1px solid #ddd;
+        padding: 10px;
+    }
+</style>
+<div id="filterSection">
+    <button id="filterButton" class="filter-button">Filter</button>
+    <div id="filterContent" class="filter-content hidden">
+        <!-- Burada filter seçenəklərini əlavə edəcəksiniz -->
+        <label>
+            <input type="checkbox" id="webDevelopment"> Web Development
+        </label>
+        <label>
+            <input type="checkbox" id="mobileDevelopment"> Mobile Development
+        </label>
+        <!-- Digər filterlər də burada ola bilər -->
+    </div>
+</div>
+<script>
+    document.getElementById("filterButton").addEventListener("click", function () {
+        var filterContent = document.getElementById("filterContent");
+        filterContent.classList.toggle("hidden");
+    });
+</script>

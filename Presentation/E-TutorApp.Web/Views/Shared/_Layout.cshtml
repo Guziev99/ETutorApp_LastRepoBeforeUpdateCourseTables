@@ -3,55 +3,170 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - E_TutorApp.Web</title>
+    <title>@ViewData["Title"] - E Tutor</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/E_TutorApp.Web.styles.css" asp-append-version="true" />
+    <link href="~/css/layoutsheet.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3 navbarclass">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">E_TutorApp.Web</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Courses</a>
                         </li>
-                        @if(User.Identity.IsAuthenticated)
-                        {
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="LogOut">Log Out</a>
-                            </li>
-                        }
-                        
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Become an Instructor</a>
+                        </li>
                     </ul>
+                    <div class="dropdown navdropdown" style="margin-right: 20px;">
+                        <select name="currency" id="currency">
+                            <option value="usd">USD</option>
+                            <option value="azn">AZN</option>
+                            <option value="tl">TL</option>
+                        </select>
+                    </div>
+
+                    <div class="dropdown navdropdown" style="margin-right: 20px;">
+                        <select name="language" id="language">
+                            <option value="en">English</option>
+                            <option value="az">Azerbaijani</option>
+                            <option value="tr">Turkish</option>
+                        </select>
+                    </div>
+
                 </div>
             </div>
         </nav>
     </header>
-    <div class="container">
+    <div class="container-fluid activepanel">
+        <div class="container-fluid leftsideElements">
+            <div class="container-fluid siteLogo" style="margin-left: 20px;">
+                <a class="navbar-brand topsitename" asp-area="" asp-controller="Home" asp-action="Index" style="font-size: 22px;">
+                    <img src="~/images/graduationcap.svg" width="38px" style="padding-bottom: 7px;" />
+                    E-tutor
+                </a>
+            </div>
+            <div class="container-fluid siteBrowse">
+                <div class="dropdown" style="margin-right: 20px; border: 1px solid #E9EAF0; padding: 8px;">
+                    <select name="browse" id="browse">
+                        <option value="">Browse</option>
+                    </select>
+                </div>
+
+                <input class="searchBar" type="text" id="searchBar" placeholder="What do you want learn..." />
+            </div>
+        </div>
+
+        <div class="container-fluid rightsideElements">
+
+
+            <div class="container-fluid siteIcons">
+                <a id="notification">
+                    <img src="~/images/bell.svg" />
+                </a>
+                <a id="favorite">
+                    <img src="~/images/heart.svg" />
+                </a>
+                <a id="shoppingCart">
+                    <img src="~/images/shoppingcartsimple.svg" />
+                </a>
+            </div>
+
+            <button id="createAccountBTN">Create Account</button>
+            <button id="signInBtn">Sign In</button>
+        </div>
+
+
+    </div>
+    <hr style="border-top: 1px solid grey; margin-bottom: 0px;" />
+    <div class="container-fluid mainbody">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
+
     <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - E_TutorApp.Web - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        <div class="container footerdiv">
+            <div class="container-fluid etutorfooterinfo">
+                <div class="container-fluid siteLogo" style="margin-left: 15px;">
+                    <a class="navbar-brand topsitename" asp-area="" asp-controller="Home" asp-action="Index" style="font-size: 26px; color: white;">
+                        <img src="~/images/graduationcap.svg" width="38px" style="padding-bottom: 7px;" />
+                        E-tutor
+                    </a>
+                </div>
+                <br />
+                <p>
+                    Aliquam rhoncus ligula est, non pulvinar elit <br />
+                    convallis nec. Donec mattis odio at.
+                </p>
+                <div class="container-fluid footericons">
+                    <a id="facebook"><img src="~/images/facebook.svg" /></a>
+                    <a id="instagram"><img src="~/images/instagram.svg" /></a>
+                    <a id="linkedin"><img src="~/images/linkedin.svg" /></a>
+                    <a id="twitter"><img src="~/images/twitter.svg" /></a>
+                    <a id="youtube"><img src="~/images/youtube.svg" /></a>
+                </div>
+            </div>
+            <div class="container-fluid topcategory">
+                <p> TOP 4 CATEGORY</p><br />
+                <a>Development</a> <br />
+                <a>Finance & Accounting</a><br />
+                <a>Design</a><br />
+                <a>Business</a>
+            </div>
+            <div class="container-fluid quickLinks">
+                <p> QUICK LINKS</p><br />
+                <a>About</a><br />
+                <a>Become Instructor <img src="~/images/arrowright.svg" /></a><br />
+                <a>Contact</a><br />
+                <a>Career</a>
+            </div>
+            <div class="container-fluid support">
+                <p> SUPPORT</p><br />
+                <a>Help Center</a><br />
+                <a>FAQs</a><br />
+                <a>Terms & Conditions</a><br />
+                <a>Privacy Policy</a>
+            </div>
+            <div class="container-fluid downloadOurApp">
+                <p>DOWNLOAD OUR APP</p><br />
+                <a><img src="~/images/downloadiosapp.svg" /></a><br />
+                <a><img src="~/images/downloadandrapp.svg" /></a>
+            </div>
+        </div>
+        <hr />
+        <div class="container footerdiv bottomsection">
+            <p style="margin-left: 10px;">@@ 2024 - . All rights reserved</p>
+            <div class="dropdown">
+                <select name="language" id="language">
+                    <option value="en">English</option>
+                    <option value="az">Azerbaijani</option>
+                    <option value="tr">Turkish</option>
+                </select>
+            </div>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
-    
 </body>
 </html>

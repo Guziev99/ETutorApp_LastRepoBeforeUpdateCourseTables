@@ -1,0 +1,85 @@
+﻿@model List<CourseBasicInfoViewModel>
+
+<link href="~/css/categorystyle.css" rel="stylesheet" />
+
+<div class="container categoriesSearch">
+    <div class="container searchandfilter">
+        <div class="filter btn">
+            <img src="~/images/faders.svg" />
+            <label>Filter</label>
+            <span>3</span>
+        </div>
+        <div>
+            <input class="searchBar" type="text" id="searchBar" placeholder="What do you want learn..." />
+        </div>
+    </div>
+
+    <div class=" container filterLeftSide">
+        <span>Sort by:</span>
+        <div class="dropdown">
+            <button class="btn btn dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                Trending
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container courseList">
+    @* @for(int i = 0 ; i < 10; i++)
+    {
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200" alt="Course Image">
+            <div class="card-content">
+                <div class="card-content-header">
+                    <p>IT & Software</p>
+
+                    <div class="price">$35</div>
+                </div>
+                <h4>Learn Python Programming Masterclass</h4>
+            </div>
+            <div class="card-footer">
+                <div class="rating">
+                    <i class="fas fa-star"></i><span>4.0</span>
+                </div>
+                <div class="students">
+                    <i class="fas fa-user"></i><span>211,434 students</span>
+                </div>
+            </div>
+        </div>
+    } *@
+
+    @foreach (var course in Model)
+    {
+        <div class="card">
+            <img src="@course!.ImgUrl" alt="Course Image">
+            <div class="card-content">
+                <div class="card-content-header">
+                    <p>@course!.CategoryName </p>
+
+                    <div class="price">$35</div>
+                </div>
+                <h4> <a asp-action="MainCourse" asp-controller="Home" asp-route-id="@course.Id"> @course!.Title  </a></h4>
+                @* <h4> <a href="/Home/MainCourse/@course!.Id" > @course!.Title  </a></h4> *@
+            </div>
+            <div class="card-footer">
+                <div class="rating">
+                    <i class="fas fa-star"></i><span>@course.Rating</span>
+                </div>
+                <div class="students">
+                    <i class="fas fa-user"></i><span>@course.Salecount  students</span>
+                </div>
+            </div>
+        </div>
+    }
+    
+
+</div>
+
+
+
+@* @await Component.InvokeAsync("Category") *@
